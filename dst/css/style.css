@@ -81,3 +81,10 @@ body, a {
       display: block;
       width: 22px;
       margin: 2px auto; }
+
+.search {
+  padding: 8px;
+  background-color: #f8f6f0; }
+  .search .search-area-input {
+    height: 40px;
+    border: 1px solid #bfbcb0; }
