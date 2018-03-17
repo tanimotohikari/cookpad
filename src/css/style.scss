@@ -1,8 +1,12 @@
 // base
-@import "base/reset.scss";
+@import 'base/reset';
+@import 'base/clearfix';
+@import 'base/default';
 
 // layout
+@import 'layout/common';
 
 // module
+@import 'module/header'
 
 // state

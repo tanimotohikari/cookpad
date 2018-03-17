@@ -1,0 +1,35 @@
+.header {
+  border-top: 3px solid #ff9933;
+  background-color: #f8f6f0;
+
+  .header-logo {
+    width: 145px;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+
+  .header-btn {
+    margin: 5px 0;
+
+    & > * {
+      display: inline-block;
+      width: 50px;
+      border-left: 1px solid #eae8e3;
+      box-shadow: inset 1px 0 0 #fff;
+      font-size: 9px;
+      text-align: center;
+    }
+
+    .header-btn-login {
+      display: block;
+      width: 22px;
+      margin: 2px auto;
+    }
+
+    .header-btn-menu {
+      display: block;
+      width: 22px;
+      margin: 2px auto;
+    }
+  }
+}

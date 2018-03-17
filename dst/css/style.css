@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none; }
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+body, a {
+  color: #4c4a40; }
+
+/*共通のlayout*/
+.l-left {
+  float: left; }
+
+.l-right {
+  float: right; }
+
+.full {
+  width: 100% !important; }
+
+.header {
+  border-top: 3px solid #ff9933;
+  background-color: #f8f6f0; }
+  .header .header-logo {
+    width: 145px;
+    padding: 8px;
+    box-sizing: border-box; }
+  .header .header-btn {
+    margin: 5px 0; }
+    .header .header-btn > * {
+      display: inline-block;
+      width: 50px;
+      border-left: 1px solid #eae8e3;
+      box-shadow: inset 1px 0 0 #fff;
+      font-size: 9px;
+      text-align: center; }
+    .header .header-btn .header-btn-login {
+      display: block;
+      width: 22px;
+      margin: 2px auto; }
+    .header .header-btn .header-btn-menu {
+      display: block;
+      width: 22px;
+      margin: 2px auto; }
