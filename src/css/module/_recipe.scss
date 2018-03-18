@@ -55,4 +55,33 @@
       font-size: 11px;
     }
   }
+
+  .recipe-navi {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+    border-top: 1px solid #bfbcb0;
+    border-bottom: 1px solid #bfbcb0;
+    margin-bottom: 7px;
+
+    & > .recipe-navi-item {
+      display: table-cell;
+      padding: 5px 10px;
+      text-align: center;
+      font-size: 9px;
+      border-left: 1px solid #bfbcb0;
+      background: linear-gradient(to bottom, #fcfcfa, #e5e3d8);
+
+      &:first-child {
+        border: 0;
+      }
+
+      .recipe-navi-item-anchor {
+
+        & > * {
+          margin: 0 auto 5px;
+        }
+      }
+    }
+  }
 }
