@@ -20,7 +20,4 @@
     "gulp-scss-lint": "^0.5.0",
     "gulp-uglify": "^3.0.0",
   },
-  "dependencies": {
-    "jquery": "^3.1.1"
-  }
 }

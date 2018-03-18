@@ -5,5 +5,10 @@
   .search-area-input {
     height: 40px;
     border: 1px solid #bfbcb0;
+    border-radius: 3px;
+  }
+
+  .search-area-btn {
+    background: linear-gradient(to bottom, #fcfcfa, #e5e3d8);
   }
 }
