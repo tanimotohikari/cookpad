@@ -5,9 +5,13 @@
 
 // layout
 @import 'layout/common';
+@import 'layout/layout';
 
 // module
 @import 'module/header';
 @import 'module/search';
+@import 'module/recipe';
+@import 'module/gradation';
+@import 'module/badge';
 
 // state

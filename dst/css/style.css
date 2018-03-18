@@ -47,18 +47,35 @@ a {
 body, a {
   color: #4c4a40; }
 
-/*共通のlayout*/
+/*幅指定*/
+.full {
+  width: 100% !important; }
+
+.half {
+  width: 50% !important; }
+
+/*左右寄せ*/
 .l-left {
   float: left; }
 
 .l-right {
   float: right; }
 
-.full {
-  width: 100% !important; }
+/*コンテンツ上下の幅*/
+.l-container {
+  padding: 10px; }
 
-.half {
-  width: 50% !important; }
+/*2カラムレイアウト*/
+.l-half > * {
+  width: 48%;
+  float: left;
+  box-sizing: border-box; }
+  .l-half > *:last-child {
+    margin-left: 4%; }
+
+/*bottom*/
+.l-bottom {
+  margin-bottom: 15px !important; }
 
 .header {
   border-top: 3px solid #ff9933;
@@ -113,3 +130,55 @@ body, a {
       background: linear-gradient(to bottom, #fcfcfa, #e5e3d8);
       padding: 0;
       /*defaultで設定されているcssを打ち消す*/ }
+
+.recipe .recipe-visual {
+  position: relative; }
+  .recipe .recipe-visual .recipe-visual-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px 10px;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); }
+
+.recipe .recipe-description {
+  font-size: 14px;
+  line-height: 1.3em; }
+
+.recipe .recipe-information {
+  font-size: 13px; }
+  .recipe .recipe-information > * {
+    background: linear-gradient(to bottom, #fff, #f6f4ef);
+    padding: 10px;
+    border: 1px solid #e2e0da;
+    border-radius: 17px;
+    position: relative; }
+  .recipe .recipe-information .recipe-information-person > * {
+    float: left; }
+  .recipe .recipe-information .recipe-information-person .recipe-information-person-thumbnail {
+    width: 13px; }
+  .recipe .recipe-information .recipe-information-report-badge {
+    color: #fff;
+    font-weight: bold;
+    background-color: #bfbcb0;
+    border: 1px solid #bfbcb0;
+    border-radius: 15px;
+    padding: 5px 7px;
+    position: absolute;
+    top: 50%;
+    right: 4px;
+    margin-top: -12px;
+    font-size: 11px; }
+
+.gradation {
+  background: linear-gradient(to bottom, rgba(123, 119, 105, 0), rgba(123, 119, 105, 0.4)); }
+
+.badge {
+  color: #fff;
+  font-weight: bold;
+  background-color: #bfbcb0;
+  border: 1px solid #bfbcb0;
+  border-radius: 15px;
+  padding: 5px 7px;
+  font-size: 11px; }

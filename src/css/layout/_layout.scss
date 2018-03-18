@@ -1,0 +1,29 @@
+/*左右寄せ*/
+.l-left {
+  float: left;
+}
+
+.l-right {
+  float: right;
+}
+
+/*コンテンツ上下の幅*/
+.l-container {
+  padding: 10px;
+}
+
+/*2カラムレイアウト*/
+.l-half > * {
+  width: 48%;
+  float: left;
+  box-sizing: border-box;
+
+  &:last-child {
+    margin-left: 4%;
+  }
+}
+
+/*bottom*/
+.l-bottom {
+  margin-bottom: 15px !important;
+}
