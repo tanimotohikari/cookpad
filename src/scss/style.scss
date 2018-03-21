@@ -1,10 +1,8 @@
 // base
 @import 'base/reset';
-@import 'base/clearfix';
-@import 'base/default';
+@import 'base/base';
 
 // layout
-@import 'layout/common';
 @import 'layout/layout';
 
 // module
@@ -13,8 +11,10 @@
 @import 'module/recipe';
 @import 'module/gradation';
 @import 'module/badge';
-@import 'module/materialList';
-@import 'module/heading';
+@import 'module/material';
+@import 'module/contents';
 @import 'module/text';
+@import 'module/step';
+@import 'module/media';
 
 // state

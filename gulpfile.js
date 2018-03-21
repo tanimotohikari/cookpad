@@ -8,7 +8,7 @@ var plumber = require('gulp-plumber');
 //var eslint = require('gulp-eslint');
 
 gulp.task('style', function() {
-  gulp.src(['./src/css/style.scss'])
+  gulp.src(['./src/scss/style.scss'])
     .pipe(plumber())
     .pipe(style())
     .pipe(autoprefixer())
@@ -30,5 +30,5 @@ gulp.task('img', function(){
 });
 
 gulp.task('watch', function(){
-  gulp.watch(['./src/css/*/*.scss', './src/script/*.js'], ['style', 'script']);
+  gulp.watch(['./src/scss/*/*.scss', './src/script/*.js'], ['style', 'script']);
 });

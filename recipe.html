@@ -11,7 +11,7 @@
 </head>
 <body>
   <header class='header clearfix'>
-    <img class='l-left header-logo' src='./src/img/header-logo.png' alt='クックパッドのロゴ'>
+    <img class='header-logo' src='./src/img/header-logo.png' alt='クックパッドのロゴ'>
     <div class='l-right header-btn'>
       <a href=''>
         <span class='header-btn-login'><img class='full' src='./src/img/header-icon-login.png' alt='ログインボタンのアイコン'></span>
@@ -52,109 +52,134 @@
       <ul class='recipe-navi'>
         <li class='recipe-navi-item'>
           <a class='recipe-navi-item-anchor' href='#'>
-            <img src="./src/img/icon-share.png" alt="シェアアイコン">
+            <img src='./src/img/icon-share.png' alt='シェアアイコン'>
             <p>レシピを共有</p>
           </a>
         </li>
         <li class='recipe-navi-item'>
           <a class='recipe-navi-item-anchor' href='#'>
-            <img src="./src/img/icon-post.png" alt="送信アイコン">
+            <img src='./src/img/icon-post.png' alt='送信アイコン'>
             <p>つくれぽを送る</p>
           </a>
         </li>
         <li class='recipe-navi-item'>
           <a class='recipe-navi-item-anchor' href='#'>
-            <img src="./src/img/icon-add.png" alt="追加アイコン">
+            <img src='./src/img/icon-add.png' alt='追加アイコン'>
             <p>レシピを保存</p>
           </a>
         </li>
       </ul>
     </nav>
   </section>
-  <section>
-    <h2 class='heading'>材料<span class='l-left-small text-small'>(2~3人分)</span></h2>
-    <ul class="materialList">
-      <li>
-        <dl class="">
-          <dt class="">
-          鶏むね肉
-          </dt>
-          <dd class="">
-          230g(1枚分)
-          </dd>
-        </dl>
+  <section class='contents'>
+    <h2 class='contents-heading'>材料<span class='l-left-small text-small'>(2~3人分)</span></h2>
+    <table class='material'>
+      <tbody>
+        <tr>
+          <th>鶏むね肉</th>
+          <td>230g(1枚分)</td>
+        </tr>
+        <tr>
+          <th>ほうれん草</th>
+          <td>200g(1袋分)</td>
+        </tr>
+        <tr>
+          <th><a class='text-anchor' href='#'>油(オリーブオイル使用)</a></th>
+          <td>大さじ1</td>
+        </tr>
+        <tr>
+          <th>●塩</th>
+          <td>ひとつまみ</td>
+        </tr>
+        <tr>
+          <th><a class='text-anchor' href='#'>●片栗粉</a></th>
+          <td>大さじ1</td>
+        </tr>
+        <tr>
+          <th><a class='text-anchor' href='#'>●料理酒</a></th>
+          <td>大さじ1</td>
+        </tr>
+        <tr>
+          <th>★味噌</th>
+          <td>大さじ1</td>
+        </tr>
+        <tr>
+          <th><a class='text-anchor' href='#'>★みりん</a></th>
+          <td>大さじ2</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section class='contents'>
+    <h2 class='contents-heading'>作り方</h2>
+    <ol class='step'>
+      <li class='step-item media clearfix'>
+        <div class="step-item-body media-body">
+          <span class='text-bold'>1</span>
+          <span class='l-left'>
+            鶏むね肉は斜め<a class='text-anchor' href='#'>そぎ切り</a>にして、●を揉み込む。
+          </span>
+        </div>
+        <div class='media-thumbnail'>
+          <img alt='写真' class='step-item-thumbnail' src='./src/img/step-01.jpg'>
+        </div>
       </li>
-      <li>
-        <dl class="">
-          <dt class="">
-          ほうれん草
-          </dt>
-          <dd class="">
-          200g(1袋分)
-          </dd>
-        </dl>
+      <li class='step-item media clearfix'>
+        <div class="step-item-body media-body">
+          <span class='text-bold'>2</span>
+          <span class='l-left'>
+            ★を混ぜ合わせておく。ほうれん草は5cm長さに切り、鍋に湯を沸かし、ほうれん草をさっと<a class='' href='#'>下ゆで</a>して水に浸し水気を絞る。
+          </span>
+        </div>
+        <div class='media-thumbnail'>
+          <img alt='写真' class='step-item-thumbnail' src='./src/img/step-02.jpg'>
+        </div>
       </li>
-      <li>
-        <dl class="">
-          <dt class="" colspan="2">
-          <a class="" href="#">
-          </dt>
-          <dd class=" wide">
-          大さじ1
-          </dd>
-        </dl>
+      <li class='step-item media clearfix'>
+        <div class="step-item-body media-body">
+          <span class='text-bold'>3</span>
+          <span class='l-left'>
+            フライパンに油をひき<a class='' href='#'>中火</a>にかけ、鶏むね肉を入れ両面に焼きついたら、★と②を加え、全体になじませる。
+          </span>
+        </div>
+        <div class='media-thumbnail'>
+          <img alt='写真' class='step-item-thumbnail' src='./src/img/step-03.jpg'>
+        </div>
       </li>
-      <li>
-        <dl class="">
-          <dt class="">
-          ●塩
-          </dt>
-          <dd class="">
-          ひとつまみ
-          </dd>
-        </dl>
+      <li class='step-item media clearfix'>
+        <div class="step-item-body media-body">
+          <span class='text-bold'>4</span>
+          <span class='l-left'>
+            ・密封容器に入れ冷蔵保存で2日
+          </span>
+        </div>
+        <div class='media-thumbnail'>
+          <img alt='写真' class='step-item-thumbnail' src='./src/img/step-02.jpg'>
+        </div>
       </li>
-      <li>
-        <dl class="">
-          <dt class="">
-          <a class="" href="#">●片栗粉</a>
-          </dt>
-          <dd class="">
-          大さじ1
-          </dd>
-        </dl>
+      <li class='step-item'>
+        <div class="step-item-body">
+          <span class='text-bold'>5</span>
+          <span class='l-left'>
+            H、29、11、27レシピ見直しました。印刷、フォルダして下さいました方へ、本当に申し訳ありません。
+          </span>
+        </div>
       </li>
-      <li>
-        <dl class="">
-          <dt class="">
-          <a class="" href="#">●料理酒</a>
-          </dt>
-          <dd class="">
-          大さじ1
-          </dd>
-        </dl>
+      <li class='step-item'>
+        <div class="step-item-body">
+          <span class='text-bold'>6</span>
+          <span class='l-left'>
+            ほうれん草は、レンジで加熱する事も可能です。（<a class='' href='#'>耐熱皿</a>に入れラップをかけ600wで1分）
+          </span>
+        </div>
       </li>
-      <li>
-        <dl class="">
-          <dt class="">
-          ★味噌
-          </dt>
-          <dd class="">
-          大さじ1
-          </dd>
-        </dl>
+      <li class='step-item'>
+        <div class="step-item-body media-body">
+          <span class='text-bold'>7</span>
+          <span class='l-left'>ブログです→http://misuzu-suzuki.blog.jp/</span>
+        </div>
       </li>
-      <li>
-        <dl class="">
-          <dt class="">
-          <a class="" href="#">★みりん</a>
-          </dt>
-          <dd class="">
-          大さじ2
-          </dd>
-        </dl>
-      </li>
-    </ul>
+    </ol>
   </section>
 </body>
 </html>
