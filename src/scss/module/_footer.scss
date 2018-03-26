@@ -4,11 +4,17 @@
   border-top: 1px solid #bfbcb0;
 
   .footer-list {
+    text-align: center;
+    font-size: 13px;
 
     & > * {
-      float: left;
+      display: inline;
       padding-right: 5px;
       border-right: 1px solid #eae8e3;
+    }
+
+    .footer-list-anchor {
+      font-size: 13px;
     }
   }
 }
