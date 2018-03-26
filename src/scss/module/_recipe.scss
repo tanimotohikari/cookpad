@@ -24,9 +24,9 @@
 
     & > * {
       background: linear-gradient(to bottom, #fff, #f6f4ef);
-      padding: 10px;
+      padding: 7px;
       border: 1px solid #e2e0da;
-      border-radius: 17px;
+      border-radius: 20px;
       position: relative;
     }
 
@@ -47,11 +47,11 @@
       background-color: #bfbcb0;
       border: 1px solid #bfbcb0;
       border-radius: 15px;
-      padding: 5px 7px;
+      padding: 3px 12px;
       position: absolute;
       top: 50%;
       right: 4px;
-      margin-top: -12px;
+      margin-top: -14px;
       font-size: 11px;
     }
   }
@@ -79,7 +79,7 @@
       .recipe-navi-item-anchor {
 
         & > * {
-          margin: 0 auto 5px;
+          margin: 0 auto;
         }
       }
     }

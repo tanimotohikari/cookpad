@@ -1,9 +1,5 @@
 .text-small {
-  font-size: 9px;
-}
-
-.text-large {
- font-size: 18px;
+  font-size: 12px;
 }
 
 .text-bold {
@@ -11,5 +7,17 @@
 }
 
 .text-anchor {
-  border-bottom: 1px solid #ede6d7;
+  border-bottom: 1px solid #330000;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-middle {
+  vertical-align: middle;
+}
+
+.text-accent {
+  color: #ff6600;
 }

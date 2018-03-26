@@ -1,0 +1,14 @@
+.footer {
+  padding: 15px 10px;
+  background-color: #f7f3e8;
+  border-top: 1px solid #bfbcb0;
+
+  .footer-list {
+
+    & > * {
+      float: left;
+      padding-right: 5px;
+      border-right: 1px solid #eae8e3;
+    }
+  }
+}

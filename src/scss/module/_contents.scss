@@ -5,5 +5,13 @@
     padding: 6px 8px;
     border-top: 1px solid #dedcd7;
     border-bottom: 1px solid #dedcd7;
+
+    & > .contents-heading-icon {
+      vertical-align: middle;
+    }
+  }
+
+  .contents-foundation {
+    background-color: #fcfbf5;
   }
 }

@@ -1,0 +1,42 @@
+.listBar {
+
+  .listBar-item {
+    position: relative;
+    padding: 10px;
+    border-bottom: 1px solid #efe9d3;
+
+    .listBar-item-id {
+      font-size: 16px;
+      text-align: center;
+    }
+
+    .listBar-item-anchor:after {
+      content: '';
+      display: inline-block;
+      position: absolute;
+      top: 50%;
+      right: 8px;
+      width: 8px;
+      height: 8px;
+      margin-top: -4px;
+      border-top: 3px solid #bfbcb0;
+      border-right: 3px solid #bfbcb0;
+      border-radius: 3px;
+      transform: rotate(45deg);
+    }
+
+    .listBar-item-badge {
+      position: absolute;
+      top: 50%;
+      right: 20px;
+      color: #fff;
+      font-weight: bold;
+      background-color: #bfbcb0;
+      border: 1px solid #bfbcb0;
+      margin-top: -11px;
+      border-radius: 15px;
+      padding: 0px 8px;
+      font-size: 11px;
+    }
+  }
+}

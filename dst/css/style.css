@@ -56,12 +56,16 @@ body, a {
 .half {
   width: 50% !important; }
 
-/*左右寄せ*/
-.l-left {
+/*左寄せ*/
+.left {
   float: left; }
 
-.l-right {
-  float: right; }
+/*コンテンツの中央寄せ*/
+.center {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
 
 /*コンテンツ上下の幅*/
 .l-container {
@@ -81,6 +85,9 @@ body, a {
 
 .l-bottom {
   margin-bottom: 15px !important; }
+
+.l-bottom-large {
+  margin-bottom: 30px !important; }
 
 /*left*/
 .l-left-small {
@@ -163,9 +170,9 @@ body, a {
   font-size: 13px; }
   .recipe .recipe-information > * {
     background: linear-gradient(to bottom, #fff, #f6f4ef);
-    padding: 10px;
+    padding: 7px;
     border: 1px solid #e2e0da;
-    border-radius: 17px;
+    border-radius: 20px;
     position: relative; }
   .recipe .recipe-information .recipe-information-person > * {
     float: left; }
@@ -177,11 +184,11 @@ body, a {
     background-color: #bfbcb0;
     border: 1px solid #bfbcb0;
     border-radius: 15px;
-    padding: 5px 7px;
+    padding: 3px 12px;
     position: absolute;
     top: 50%;
     right: 4px;
-    margin-top: -12px;
+    margin-top: -14px;
     font-size: 11px; }
 
 .recipe .recipe-navi {
@@ -201,7 +208,7 @@ body, a {
     .recipe .recipe-navi > .recipe-navi-item:first-child {
       border: 0; }
     .recipe .recipe-navi > .recipe-navi-item .recipe-navi-item-anchor > * {
-      margin: 0 auto 5px; }
+      margin: 0 auto; }
 
 .gradation {
   background: linear-gradient(to bottom, rgba(123, 119, 105, 0), rgba(123, 119, 105, 0.4)); }
@@ -236,18 +243,29 @@ body, a {
   padding: 6px 8px;
   border-top: 1px solid #dedcd7;
   border-bottom: 1px solid #dedcd7; }
+  .contents .contents-heading > .contents-heading-icon {
+    vertical-align: middle; }
+
+.contents .contents-foundation {
+  background-color: #fcfbf5; }
 
 .text-small {
-  font-size: 9px; }
-
-.text-large {
-  font-size: 18px; }
+  font-size: 12px; }
 
 .text-bold {
   font-weight: bold; }
 
 .text-anchor {
-  border-bottom: 1px solid #ede6d7; }
+  border-bottom: 1px solid #330000; }
+
+.text-center {
+  text-align: center; }
+
+.text-middle {
+  vertical-align: middle; }
+
+.text-accent {
+  color: #ff6600; }
 
 .step {
   font-size: 16px; }
@@ -267,3 +285,69 @@ body, a {
 .media .media-thumbnail {
   width: 36%;
   float: left; }
+
+.listBar .listBar-item {
+  position: relative;
+  padding: 10px;
+  border-bottom: 1px solid #efe9d3; }
+  .listBar .listBar-item .listBar-item-id {
+    font-size: 16px;
+    text-align: center; }
+  .listBar .listBar-item .listBar-item-anchor:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    width: 8px;
+    height: 8px;
+    margin-top: -4px;
+    border-top: 3px solid #bfbcb0;
+    border-right: 3px solid #bfbcb0;
+    border-radius: 3px;
+    transform: rotate(45deg); }
+  .listBar .listBar-item .listBar-item-badge {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #bfbcb0;
+    border: 1px solid #bfbcb0;
+    margin-top: -11px;
+    border-radius: 15px;
+    padding: 0px 8px;
+    font-size: 11px; }
+
+.profile {
+  padding: 10px;
+  background-color: #fefcf9;
+  border-top: 1px solid #efe9d3; }
+  .profile .profile-thumbnail {
+    width: 60px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px; }
+  .profile .profile-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px; }
+  .profile .profile-description {
+    font-size: 12px; }
+
+.footer {
+  padding: 15px 10px;
+  background-color: #f7f3e8;
+  border-top: 1px solid #bfbcb0; }
+  .footer .footer-list > * {
+    float: left;
+    padding-right: 5px;
+    border-right: 1px solid #eae8e3; }
+
+.btn {
+  padding: 10px;
+  border: 1px solid #bfbcb0;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, #fcfcfa, #e5e3d8); }

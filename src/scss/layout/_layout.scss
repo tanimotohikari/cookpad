@@ -7,13 +7,15 @@
   width: 50% !important;
 }
 
-/*左右寄せ*/
-.l-left {
+/*左寄せ*/
+.left {
   float: left;
 }
 
-.l-right {
-  float: right;
+/*コンテンツの中央寄せ*/
+.center {
+  display: flex;
+  justify-content: center;
 }
 
 /*コンテンツ上下の幅*/
@@ -39,6 +41,10 @@
 
 .l-bottom {
   margin-bottom: 15px !important;
+}
+
+.l-bottom-large {
+  margin-bottom: 30px !important;
 }
 
 /*left*/
