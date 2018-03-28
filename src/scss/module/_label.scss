@@ -1,0 +1,14 @@
+.label {
+  padding: 3px 5px;
+  margin: 0 0 2px 7px;
+  border-radius: 3px;
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+  line-height: 1;
+
+  &.label-updata {
+    background-color: #ef6074;
+  }
+
+}

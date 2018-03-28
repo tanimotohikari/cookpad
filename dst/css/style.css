@@ -375,3 +375,14 @@ body, a {
   border: 1px solid #bfbcb0;
   border-radius: 5px;
   background: linear-gradient(to bottom, #fcfcfa, #e5e3d8); }
+
+.label {
+  padding: 3px 5px;
+  margin: 0 0 2px 7px;
+  border-radius: 3px;
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+  line-height: 1; }
+  .label.label-updata {
+    background-color: #ef6074; }
