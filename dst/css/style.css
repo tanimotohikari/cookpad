@@ -100,6 +100,16 @@ body, a {
 .l-left {
   margin-left: 15px !important; }
 
+/*横並びリスト*/
+.l-list > * {
+  float: left; }
+
+/*tableレイアウト*/
+.l-table {
+  display: table; }
+  .l-table > * {
+    display: table-cell; }
+
 .header {
   border-top: 3px solid #ff9933;
   background-color: #f8f6f0; }
@@ -241,6 +251,9 @@ body, a {
   .material .material-anchor {
     border-bottom: 1px solid #ede6d7; }
 
+.contents .contents-inner {
+  padding: 6px 8px; }
+
 .contents .contents-heading {
   background: #f8f6f0;
   padding: 6px 8px;
@@ -257,7 +270,7 @@ body, a {
   background-color: #fcfbf5; }
 
 .text-small {
-  font-size: 12px; }
+  font-size: 12px !important; }
 
 .text-bold {
   font-weight: bold; }
@@ -295,7 +308,7 @@ body, a {
 
 .listBar .listBar-item {
   position: relative;
-  padding: 10px;
+  padding: 6px 8px;
   border-bottom: 1px solid #efe9d3; }
   .listBar .listBar-item .listBar-item-id {
     font-size: 16px;
@@ -375,6 +388,25 @@ body, a {
   border: 1px solid #bfbcb0;
   border-radius: 5px;
   background: linear-gradient(to bottom, #fcfcfa, #e5e3d8); }
+  .btn.btn-back {
+    width: 75px;
+    display: block;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 15px;
+    position: relative; }
+    .btn.btn-back:before {
+      content: '';
+      display: inline-block;
+      position: absolute;
+      top: 50%;
+      left: 6px;
+      width: 8px;
+      height: 8px;
+      margin-top: -6px;
+      border-top: 3px solid #7b7769;
+      border-left: 3px solid #7b7769;
+      border-radius: 3px;
+      transform: rotate(-45deg); }
 
 .label {
   padding: 3px 5px;
@@ -383,6 +415,35 @@ body, a {
   display: inline-block;
   vertical-align: middle;
   color: #fff;
-  line-height: 1; }
+  line-height: 1;
+  font-size: 10px;
+  font-weight: bold; }
   .label.label-updata {
     background-color: #ef6074; }
+
+.rankingList {
+  min-width: 300px; }
+  .rankingList > li > * {
+    display: block;
+    margin: 0 auto; }
+  .rankingList .rankingList-icon {
+    width: 20px; }
+  .rankingList .rankingList-thumbnail {
+    border-radius: 5px;
+    width: 65px; }
+  .rankingList .rankingList-info {
+    width: 85px;
+    padding: 10px 0 10px 10px; }
+    .rankingList .rankingList-info .rankingList-info-title {
+      font-size: 22px;
+      font-weight: bold;
+      margin: 15px 0 5px; }
+    .rankingList .rankingList-info .rankingList-info-text {
+      font-size: 11px; }
+
+.supplement {
+  font-size: 11px;
+  border: 1px solid #e1dfd3;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #fffdef; }

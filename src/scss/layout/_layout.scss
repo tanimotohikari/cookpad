@@ -60,3 +60,20 @@
 .l-left {
   margin-left: 15px !important;
 }
+
+/*横並びリスト*/
+.l-list {
+
+  & > * {
+    float: left;
+  }
+}
+
+/*tableレイアウト*/
+.l-table {
+  display: table;
+
+  & > * {
+    display: table-cell;
+  }
+}
