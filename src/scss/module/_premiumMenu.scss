@@ -1,0 +1,70 @@
+.premiumMenu {
+
+  .premiumMenu-visual {
+    height: 215px;
+    position: relative;
+    background: url('../img/card-background.jpg') no-repeat;
+
+    .premiumMenu-visual-img {
+      border-radius: 999px;
+      overflow: hidden;
+      position: absolute;
+
+      &.main {
+        border: 8px solid #fff;
+        width: 160px;
+        height: 160px;
+        top: 16px;
+        left: 10px;
+      }
+
+      &.sub {
+        border: 6px solid #fff;
+        width: 80px;
+        height: 80px;
+        top: 7px;
+        right: 20px;
+      }
+
+      &.tertiary {
+        border: 6px solid #fff;
+        width: 80px;
+        height: 80px;
+        top: 108px;
+        right: 20px;
+      }
+    }
+
+    .premiumMenu-visual-stick {
+      position: absolute;
+      width: 100px;
+      bottom: 6px;
+      left: 50%;
+      margin-left: -50px;
+    }
+  }
+
+  .premiumMenu-info {
+    padding: 0 10px 13px;
+
+    .premiumMenu-info-list {
+      width: 100%;
+
+      .premiumMenu-info-list-icon {
+        width: 18px;
+      }
+    }
+
+    .premiumMenu-info-title {
+      font-size: 19px;
+      font-weight: bold;
+      color: #889b00;
+    }
+
+    .premiumMenu-info-sideNum {
+      font-size: 16px;
+      font-weight: bold;
+      color: #666;
+    }
+  }
+}
