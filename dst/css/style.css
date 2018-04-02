@@ -269,6 +269,9 @@ body, a {
 .contents .contents-foundation {
   background-color: #fcfbf5; }
 
+.text-xsmall {
+  font-size: 9px !important; }
+
 .text-small {
   font-size: 12px !important; }
 
@@ -286,6 +289,9 @@ body, a {
 
 .text-accent {
   color: #ff6600; }
+
+.text-decoration {
+  text-decoration: underline; }
 
 .step {
   font-size: 16px; }
@@ -453,50 +459,75 @@ body, a {
   background-color: #fff;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.4); }
 
-.premiumMenu .premiumMenu-visual {
-  height: 215px;
-  position: relative;
-  background: url("../img/card-background.jpg") no-repeat; }
-  .premiumMenu .premiumMenu-visual .premiumMenu-visual-img {
-    border-radius: 999px;
-    overflow: hidden;
-    position: absolute; }
-    .premiumMenu .premiumMenu-visual .premiumMenu-visual-img.main {
-      border: 8px solid #fff;
-      width: 160px;
-      height: 160px;
-      top: 16px;
-      left: 10px; }
-    .premiumMenu .premiumMenu-visual .premiumMenu-visual-img.sub {
-      border: 6px solid #fff;
-      width: 80px;
-      height: 80px;
-      top: 7px;
-      right: 20px; }
-    .premiumMenu .premiumMenu-visual .premiumMenu-visual-img.tertiary {
-      border: 6px solid #fff;
-      width: 80px;
-      height: 80px;
-      top: 108px;
-      right: 20px; }
-  .premiumMenu .premiumMenu-visual .premiumMenu-visual-stick {
-    position: absolute;
-    width: 100px;
-    bottom: 6px;
-    left: 50%;
-    margin-left: -50px; }
-
-.premiumMenu .premiumMenu-info {
-  padding: 0 10px 13px; }
-  .premiumMenu .premiumMenu-info .premiumMenu-info-list {
-    width: 100%; }
-    .premiumMenu .premiumMenu-info .premiumMenu-info-list .premiumMenu-info-list-icon {
-      width: 18px; }
-  .premiumMenu .premiumMenu-info .premiumMenu-info-title {
-    font-size: 19px;
-    font-weight: bold;
-    color: #889b00; }
-  .premiumMenu .premiumMenu-info .premiumMenu-info-sideNum {
-    font-size: 16px;
-    font-weight: bold;
-    color: #666; }
+.premiumMenu {
+  margin-bottom: 25px; }
+  .premiumMenu .premiumMenu-date {
+    font-size: 18px;
+    color: #3c3c3c;
+    margin-bottom: 10px; }
+  .premiumMenu .premiumMenu-visual {
+    height: 215px;
+    position: relative;
+    background: url("../img/card-background.jpg") no-repeat;
+    margin-bottom: 10px;
+    border-radius: 5px 5px 0 0; }
+    .premiumMenu .premiumMenu-visual .premiumMenu-visual-img {
+      border-radius: 999px;
+      overflow: hidden;
+      position: absolute; }
+      .premiumMenu .premiumMenu-visual .premiumMenu-visual-img.main {
+        border: 8px solid #fff;
+        width: 160px;
+        height: 160px;
+        top: 16px;
+        left: 10px; }
+      .premiumMenu .premiumMenu-visual .premiumMenu-visual-img.sub {
+        border: 6px solid #fff;
+        width: 80px;
+        height: 80px;
+        top: 7px;
+        right: 20px; }
+      .premiumMenu .premiumMenu-visual .premiumMenu-visual-img.tertiary {
+        border: 6px solid #fff;
+        width: 80px;
+        height: 80px;
+        top: 108px;
+        right: 20px; }
+    .premiumMenu .premiumMenu-visual .premiumMenu-visual-theme {
+      color: #fff;
+      font-size: 13px;
+      text-align: center;
+      position: absolute;
+      top: 12px;
+      left: 0;
+      padding: 5px;
+      background-color: #f93;
+      border-radius: 0 5px 5px 0; }
+    .premiumMenu .premiumMenu-visual .premiumMenu-visual-stick {
+      position: absolute;
+      width: 100px;
+      bottom: 6px;
+      left: 50%;
+      margin-left: -50px; }
+  .premiumMenu .premiumMenu-info {
+    padding: 0 10px 13px; }
+    .premiumMenu .premiumMenu-info .premiumMenu-info-list {
+      font-size: 16px; }
+      .premiumMenu .premiumMenu-info .premiumMenu-info-list > li {
+        border-right: 1px solid #e3dcca;
+        padding-left: 10px; }
+      .premiumMenu .premiumMenu-info .premiumMenu-info-list .premiumMenu-info-list-text {
+        color: #666;
+        font-size: 10px;
+        text-align: center; }
+      .premiumMenu .premiumMenu-info .premiumMenu-info-list .premiumMenu-info-list-icon {
+        height: 18px; }
+    .premiumMenu .premiumMenu-info .premiumMenu-info-title {
+      font-size: 19px;
+      font-weight: bold;
+      color: #889b00;
+      line-height: 1.5em; }
+    .premiumMenu .premiumMenu-info .premiumMenu-info-sid-menu {
+      font-size: 16px;
+      font-weight: bold;
+      color: #666; }

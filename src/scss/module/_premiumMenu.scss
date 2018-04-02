@@ -1,9 +1,18 @@
 .premiumMenu {
+  margin-bottom: 25px;
+
+  .premiumMenu-date {
+    font-size: 18px;
+    color: #3c3c3c;
+    margin-bottom: 10px;
+  }
 
   .premiumMenu-visual {
     height: 215px;
     position: relative;
     background: url('../img/card-background.jpg') no-repeat;
+    margin-bottom: 10px;
+    border-radius: 5px 5px 0 0;
 
     .premiumMenu-visual-img {
       border-radius: 999px;
@@ -35,6 +44,18 @@
       }
     }
 
+    .premiumMenu-visual-theme {
+      color: #fff;
+      font-size: 13px;
+      text-align: center;
+      position: absolute;
+      top: 12px;
+      left: 0;
+      padding: 5px;
+      background-color: #f93;
+      border-radius: 0 5px 5px 0;
+    }
+
     .premiumMenu-visual-stick {
       position: absolute;
       width: 100px;
@@ -48,10 +69,21 @@
     padding: 0 10px 13px;
 
     .premiumMenu-info-list {
-      width: 100%;
+      font-size: 16px;
+
+      & > li {
+        border-right: 1px solid #e3dcca;
+        padding-left: 10px;
+      }
+
+      .premiumMenu-info-list-text {
+        color: #666;
+        font-size: 10px;
+        text-align: center;
+      }
 
       .premiumMenu-info-list-icon {
-        width: 18px;
+        height: 18px;
       }
     }
 
@@ -59,9 +91,10 @@
       font-size: 19px;
       font-weight: bold;
       color: #889b00;
+      line-height: 1.5em;
     }
 
-    .premiumMenu-info-sideNum {
+    .premiumMenu-info-sid-menu {
       font-size: 16px;
       font-weight: bold;
       color: #666;
