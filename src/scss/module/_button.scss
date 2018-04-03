@@ -28,4 +28,31 @@
       transform: rotate(-45deg);
     }
   }
+
+  &.btn-next {
+    width: 75px;
+    display: block;
+    box-sizing: border-box;
+    padding: 10px 15px 10px 10px;
+    position: relative;
+
+    &:before {
+      content: '';
+      display: inline-block;
+      position: absolute;
+      top: 50%;
+      right: 6px;
+      width: 8px;
+      height: 8px;
+      margin-top: -6px;
+      border-top: 3px solid #7b7769;
+      border-right: 3px solid #7b7769;
+      border-radius: 3px;
+      transform: rotate(45deg);
+    }
+  }
+
+  &.btn-disable {
+    opacity: .5;
+  }
 }
