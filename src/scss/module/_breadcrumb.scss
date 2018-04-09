@@ -1,0 +1,18 @@
+.breadcrumb {
+  border-top: 1px solid #bfbcb0;
+  background-color: #f8f6f0;
+  padding: 2px;
+  font-size: 12px;
+
+  & > li {
+    float: left;
+    padding: 0 2px;
+
+    &:after {
+      // content: '';
+      // border-style: solid;
+      // border-width: 15px 0 15px 15px;
+      // border-color: transparent transparent transparent #bfbcb0;
+    }
+  }
+}

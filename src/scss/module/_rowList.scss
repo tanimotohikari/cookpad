@@ -1,0 +1,11 @@
+.rowList {
+
+  & > li {
+    width: 50%;
+    float: left;
+    border-right: 1px solid #eae8e3;
+    border-bottom: 1px solid #eae8e3;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+}

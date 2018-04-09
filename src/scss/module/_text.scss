@@ -10,10 +10,6 @@
   font-weight: bold;
 }
 
-.text-anchor {
-  border-bottom: 1px solid #330000;
-}
-
 .text-center {
   text-align: center;
 }
@@ -28,4 +24,18 @@
 
 .text-decoration {
   text-decoration: underline;
+}
+
+/*textの色*/
+
+.text-anchor {
+  border-bottom: 1px solid #330000;
+}
+
+.text-info {
+  color: #99958a;
+}
+
+.text-ranking {
+  color: #a6744d;
 }
