@@ -49,6 +49,12 @@ body, a {
   display: block;
   clear: both; }
 
+.is-block {
+  display: block; }
+
+.is-inlineblock {
+  display: inline-block; }
+
 /*幅の指定*/
 .full {
   width: 100% !important; }
@@ -291,9 +297,9 @@ body, a {
   padding: 6px 8px;
   border-top: 1px solid #dedcd7;
   border-bottom: 1px solid #dedcd7; }
-  .contents .contents-heading > .contents-heading-icon {
+  .contents .contents-heading .contents-heading-icon {
     vertical-align: middle; }
-  .contents .contents-heading > .contents-heading-text {
+  .contents .contents-heading .contents-heading-text {
     vertical-align: middle;
     font-size: 16px;
     font-weight: bold; }
@@ -378,6 +384,9 @@ body, a {
     width: 40px;
     border-radius: 5px;
     margin-right: 5px; }
+  .listBar .listBar-item .listBar-item-title {
+    font-size: 16px;
+    font-weight: bold; }
   .listBar .listBar-item .listBar-item-text {
     display: table-cell;
     vertical-align: middle;
