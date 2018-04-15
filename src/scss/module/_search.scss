@@ -3,6 +3,10 @@
   background-color: #f8f6f0;
   border-bottom: 1px solid #bfbcb0;
 
+  &.bound-underCotents {
+    border-bottom: 0;
+  }
+
   .search-area {
     position: relative;
     height: 38px;

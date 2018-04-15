@@ -1,0 +1,44 @@
+.featureList {
+  border: 1px solid #eae8e3;
+  background-color: #fff;
+  position: relative;
+
+  & > li {
+    border-bottom: 1px solid #eae8e3;
+    position: relative;
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+
+  .featureList-thumbnail {
+    width: 95px;
+  }
+
+  .featureList-bookmark {
+    width: 22px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .featureList-body {
+    width: 207px;
+    color: #4c4a40;
+    font-size: 11px;
+    padding: 10px 10px 5px 5px;
+    box-sizing: border-box;
+
+    .featureList-body-title {
+      color: #889b00;
+      font-size: 16px;
+      font-weight: bold;
+      padding-right: 20px;
+    }
+
+    .featureList-body-contributor {
+      color: #99958a;
+    }
+  }
+}
