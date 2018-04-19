@@ -1,0 +1,19 @@
+.l-tab {
+  vertical-align: middle;
+
+  .l-tab-btn {
+    vertical-align: middle;
+    position: relative;
+
+    .l-tab-btn-icon {
+      position: absolute;
+      top: 8px;
+      left: 30px;
+    }
+
+    .l-tab-btn-anchor {
+      width: 100%;
+      display: inline-block;
+    }
+  }
+}

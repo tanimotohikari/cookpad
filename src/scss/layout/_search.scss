@@ -1,0 +1,23 @@
+.l-search {
+
+  &.bound-underCotents {
+    border-bottom: 0;
+  }
+
+  .l-search-area {
+    position: relative;
+    height: 38px;
+
+    .l-search-area-input {
+      width: 100%;
+      height: 40px;
+    }
+
+    .l-search-area-btn {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.l-material {
+
+  tr {
+
+    & > th,td {
+      padding: 8px;
+    }
+
+    & > th {
+      text-align: left;
+    }
+
+    & > td {
+      text-align: right;
+    }
+  }
+}

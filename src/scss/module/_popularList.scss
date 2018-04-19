@@ -5,26 +5,20 @@
   }
 
   & > li {
-    width: 113px;
-    height: 113px;
     border: 1px solid #eae8e3;
-    margin-left: 10px;
-    position: relative;
 
     &:first-child {
       margin-left: 0;
     }
 
-    .populatList-rank {
+    .l-populatList-rank {
       width: 20px;
       position: absolute;
       top: 0;
       left: 0;
-      background-color: #fff;
-      padding: 0 2px 2px 0;
     }
 
-    .popularList-thumbnail {
+    .l-popularList-thumbnail {
       width: 113px;
     }
   }

@@ -1,6 +1,17 @@
 .carousel {
   background-color: #fff;
   padding: 6px 0 10px 10px;
+  border: 1px solid #eae8e3;
+
+  .carsol-title {
+    position: relative;
+
+    .carsol-title-icon {
+      position: absolute;
+      top: 8px;
+      left: 30px;
+    }
+  }
 
   .carousel-list {
     overflow: scroll;

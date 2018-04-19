@@ -1,0 +1,28 @@
+.l-header {
+
+  .l-header-logo {
+    width: 145px;
+    padding: 8px;
+  }
+
+  .l-header-btn {
+    margin: 5px 0;
+
+    & > * {
+      display: inline-block;
+      width: 50px;
+    }
+
+    .l-header-btn-login {
+      display: block;
+      width: 22px;
+      margin: 2px auto;
+    }
+
+    .l-header-btn-menu {
+      display: block;
+      width: 22px;
+      margin: 2px auto;
+    }
+  }
+}

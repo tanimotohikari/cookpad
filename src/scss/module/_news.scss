@@ -34,18 +34,11 @@
     overflow: hidden;
     padding-right: 10px;
 
-    & > * {
-      float: left;
-      box-sizing: border-box;
-    }
-
     .news-media-thumbnail {
-      width: 30%;
       padding-right: 10px;
     }
 
     .news-media-body {
-      width: 70%;
 
       .news-media-body-title {
         color: #889b00;

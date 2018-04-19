@@ -1,0 +1,60 @@
+.l-premiumMenu {
+  margin-bottom: 25px;
+
+  .l-premiumMenu-date {
+    margin-bottom: 10px;
+  }
+
+  .l-premiumMenu-visual {
+    height: 215px;
+    position: relative;
+    margin-bottom: 10px;
+
+    .l-premiumMenu-visual-img {
+      position: absolute;
+
+      &.main {
+        width: 160px;
+        height: 160px;
+        top: 16px;
+        left: 10px;
+      }
+
+      &.sub {
+        width: 80px;
+        height: 80px;
+        top: 7px;
+        right: 20px;
+      }
+
+      &.tertiary {
+        width: 80px;
+        height: 80px;
+        top: 108px;
+        right: 20px;
+      }
+    }
+
+    .l-premiumMenu-visual-theme {
+      position: absolute;
+      top: 12px;
+      left: 0;
+    }
+
+    .l-premiumMenu-visual-stick {
+      position: absolute;
+      width: 100px;
+      bottom: 6px;
+      left: 50%;
+      margin-left: -50px;
+    }
+  }
+
+  .l-premiumMenu-info {
+
+      .premiumMenu-infoList-icon {
+        height: 18px;
+      }
+    }
+  }
+}

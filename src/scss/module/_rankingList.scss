@@ -1,28 +1,15 @@
 .rankingList {
-  min-width: 300px;
-
-  & > li > * {
-    display: block;
-    margin: 0 auto;
-  }
-
-  .rankingList-icon {
-    width: 20px;
-  }
 
   .rankingList-thumbnail {
     border-radius: 5px;
-    width: 65px;
   }
 
   .rankingList-info {
-    width: 85px;
     padding: 10px 0 10px 10px;
 
     .rankingList-info-title {
       font-size: 22px;
       font-weight: bold;
-      margin: 15px 0 5px;
     }
 
     .rankingList-info-text {

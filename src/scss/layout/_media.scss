@@ -1,11 +1,13 @@
-.media {
-  .media-body {
+.l-media {
+
+  .l-media-body {
     width: 64%;
     float: left;
   }
 
-  .media-thumbnail {
+  .l-media-thumbnail {
     width: 36%;
     float: left;
+    overflow: hidden;
   }
 }

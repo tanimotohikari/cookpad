@@ -1,0 +1,18 @@
+.l-news {
+
+  .l-news-media {
+
+    & > * {
+      float: left;
+      box-sizing: border-box;
+    }
+
+    .l-news-media-thumbnail {
+      width: 30%;
+    }
+
+    .l-news-media-body {
+      width: 70%;
+    }
+  }
+}

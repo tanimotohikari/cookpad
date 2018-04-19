@@ -5,6 +5,21 @@
 
 // layout
 @import 'layout/layout';
+@import 'layout/header';
+@import 'layout/featureList';
+@import 'layout/material';
+@import 'layout/media';
+@import 'layout/news';
+@import 'layout/newsHeader';
+@import 'layput/popularList';
+@import 'layput/premiumMenu';
+@import 'layout/profile';
+@import 'layout/rankingList';
+@import 'layout/rowList';
+@import 'layout/step';
+@import 'layout/tab';
+@import 'layout/search';
+@import 'layout/recipe';
 
 // module
 @import 'module/header';
@@ -16,7 +31,6 @@
 @import 'module/contents';
 @import 'module/text';
 @import 'module/step';
-@import 'module/media';
 @import 'module/listBar';
 @import 'module/profile';
 @import 'module/footer';
