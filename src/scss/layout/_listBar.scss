@@ -3,7 +3,8 @@
   .l-listBar-item {
     position: relative;
 
-    .l-listBar-item-anchor{
+    .l-listBar-item-anchor {
+      widows: 100%;
       display: table;
 
       &:after {
@@ -24,6 +25,7 @@
     }
 
     .l-listBar-item-text {
+      width: 250px;
       display: table-cell;
       vertical-align: middle;
     }
