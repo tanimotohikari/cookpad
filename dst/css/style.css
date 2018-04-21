@@ -360,6 +360,7 @@ body, a {
 .l-listBar .l-listBar-item {
   position: relative; }
   .l-listBar .l-listBar-item .l-listBar-item-anchor {
+    widows: 100%;
     display: table; }
     .l-listBar .l-listBar-item .l-listBar-item-anchor:after {
       display: inline-block;
@@ -374,6 +375,7 @@ body, a {
     width: 40px;
     margin-right: 5px; }
   .l-listBar .l-listBar-item .l-listBar-item-text {
+    width: 250px;
     display: table-cell;
     vertical-align: middle; }
   .l-listBar .l-listBar-item .l-listBar-item-badge {
