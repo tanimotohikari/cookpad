@@ -652,7 +652,8 @@ body, a {
       border-radius: 3px;
       transform: rotate(45deg); }
   .btn.btn-disable {
-    opacity: .5; }
+    color: #a2a098;
+    border: 1px solid #a2a098; }
 
 .btn-more {
   line-height: 45px;
