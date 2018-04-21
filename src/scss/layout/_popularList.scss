@@ -5,13 +5,13 @@
   }
 
   & > li {
-    border: 1px solid #eae8e3;
+    position: relative;
 
     &:first-child {
       margin-left: 0;
     }
 
-    .l-populatList-rank {
+    .l-popularList-rank {
       width: 20px;
       position: absolute;
       top: 0;

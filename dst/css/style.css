@@ -160,7 +160,8 @@ body, a {
     margin: 2px auto; }
 
 .l-featureList .l-featureList-thumbnail {
-  width: 95px; }
+  width: 95px;
+  float: left; }
 
 .l-featureList .l-featureList-bookmark {
   width: 22px;
@@ -169,7 +170,8 @@ body, a {
   right: 10px; }
 
 .l-featureList .l-featureList-body {
-  width: 207px; }
+  width: 207px;
+  float: left; }
 
 .l-material tr > th, .l-material tr td {
   padding: 8px; }
@@ -212,10 +214,10 @@ body, a {
   display: none; }
 
 .l-popularList > li {
-  border: 1px solid #eae8e3; }
+  position: relative; }
   .l-popularList > li:first-child {
     margin-left: 0; }
-  .l-popularList > li .l-populatList-rank {
+  .l-popularList > li .l-popularList-rank {
     width: 20px;
     position: absolute;
     top: 0;
@@ -378,6 +380,13 @@ body, a {
     top: 50%;
     right: 20px;
     margin-top: -11px; }
+
+.l-carousel .l-carsol-title {
+  position: relative; }
+  .l-carousel .l-carsol-title .l-carsol-title-icon {
+    position: absolute;
+    top: 8px;
+    left: 30px; }
 
 .header {
   border-top: 3px solid #ff9933;
@@ -848,15 +857,9 @@ body, a {
   background-color: #fff;
   padding: 6px 0 10px 10px;
   border: 1px solid #eae8e3; }
-  .carousel .carsol-title {
-    position: relative; }
-    .carousel .carsol-title .carsol-title-icon {
-      position: absolute;
-      top: 8px;
-      left: 30px; }
   .carousel .carousel-list {
     overflow: scroll; }
 
-.popularList > li .populatList-rank {
+.popularList > li .popularList-rank {
   background-color: #fff;
   padding: 0 2px 2px 0; }
