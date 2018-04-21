@@ -141,7 +141,8 @@ body, a {
 
 .l-header .l-header-logo {
   width: 145px;
-  padding: 8px; }
+  padding: 8px;
+  box-sizing: border-box; }
 
 .l-header .l-header-btn {
   margin: 5px 0;
@@ -257,7 +258,7 @@ body, a {
       bottom: 6px;
       left: 50%;
       margin-left: -50px; }
-  .l-premiumMenu .l-premiumMenu-info .premiumMenu-infoList-icon {
+  .l-premiumMenu .l-premiumMenu-info .l-premiumMenu-infoList-icon {
     height: 18px; }
 
 .l-profile .l-profile-thumbnail {
@@ -308,9 +309,6 @@ body, a {
       width: 100%;
       display: inline-block; }
 
-.l-search.bound-underCotents {
-  border-bottom: 0; }
-
 .l-search .l-search-area {
   position: relative;
   height: 38px; }
@@ -356,19 +354,39 @@ body, a {
     .l-recipe .l-recipe-navi > .l-recipe-navi-item .l-recipe-navi-item-anchor > * {
       margin: 0 auto; }
 
+.l-listBar .l-listBar-item {
+  position: relative; }
+  .l-listBar .l-listBar-item .l-listBar-item-anchor {
+    display: table; }
+    .l-listBar .l-listBar-item .l-listBar-item-anchor:after {
+      display: inline-block;
+      position: absolute;
+      top: 50%;
+      right: 8px;
+      width: 8px;
+      height: 8px;
+      margin-top: -4px; }
+  .l-listBar .l-listBar-item .l-listBar-item-thumbnail {
+    display: table-cell;
+    width: 40px;
+    margin-right: 5px; }
+  .l-listBar .l-listBar-item .l-listBar-item-text {
+    display: table-cell;
+    vertical-align: middle; }
+  .l-listBar .l-listBar-item .l-listBar-item-badge {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    margin-top: -11px; }
+
 .header {
   border-top: 3px solid #ff9933;
   background-color: #f8f6f0; }
-  .header .header-logo {
-    width: 145px;
-    padding: 8px; }
-  .header .header-btn {
-    margin: 5px 0; }
-    .header .header-btn > * {
-      border-left: 1px solid #eae8e3;
-      box-shadow: inset 1px 0 0 #fff;
-      font-size: 9px;
-      text-align: center; }
+  .header .header-btn > * {
+    border-left: 1px solid #eae8e3;
+    box-shadow: inset 1px 0 0 #fff;
+    font-size: 9px;
+    text-align: center; }
 
 .newsHeader {
   border-top: 3px solid #ff9933; }
@@ -697,6 +715,7 @@ body, a {
     color: #fff;
     font-size: 13px;
     text-align: center;
+    padding: 5px;
     background-color: #f93;
     border-radius: 0 5px 5px 0; }
 
