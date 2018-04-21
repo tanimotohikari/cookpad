@@ -1,25 +1,10 @@
 .popularList {
 
-  &::-webkit-scrollbar {
-    display: none;
-  }
-
   & > li {
-    border: 1px solid #eae8e3;
 
-    &:first-child {
-      margin-left: 0;
-    }
-
-    .l-populatList-rank {
-      width: 20px;
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-
-    .l-popularList-thumbnail {
-      width: 113px;
+    .populatList-rank {
+      background-color: #fff;
+      padding: 0 2px 2px 0;
     }
   }
 }
