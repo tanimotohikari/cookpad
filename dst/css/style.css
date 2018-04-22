@@ -566,7 +566,7 @@ body, a {
     .listBar .listBar-item:last-child {
       border-bottom: 0; }
     .listBar .listBar-item .listBar-item-inner {
-      padding: 14px 0; }
+      padding: 8px 0; }
     .listBar .listBar-item .listBar-item-id {
       font-size: 16px;
       text-align: center; }
@@ -808,10 +808,12 @@ body, a {
     color: #4d2200;
     font-weight: bold; }
 
-.rowList > li {
-  border-right: 1px solid #eae8e3;
-  border-bottom: 1px solid #eae8e3;
-  padding: 10px; }
+.rowList {
+  background-color: #fff; }
+  .rowList > li {
+    border-right: 1px solid #eae8e3;
+    border-bottom: 1px solid #eae8e3;
+    padding: 10px; }
 
 .featureList {
   border: 1px solid #eae8e3;
