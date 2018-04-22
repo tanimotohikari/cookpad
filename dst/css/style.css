@@ -82,7 +82,11 @@ body, a {
 .align-center {
   text-align: center; }
 
-/*コンテンツの中央寄せ*/
+/*コンテンツ中央寄せ*/
+.vertical-middle {
+  vertical-align: middle; }
+
+/*コンテンツ中央寄せ*/
 .center {
   display: -ms-flexbox;
   display: flex;
@@ -500,7 +504,8 @@ body, a {
   .contents .contents-heading {
     padding: 6px 8px;
     border-top: 1px solid #dedcd7;
-    border-bottom: 1px solid #dedcd7; }
+    border-bottom: 1px solid #dedcd7;
+    font-weight: bold; }
     .contents .contents-heading .contents-heading-icon {
       vertical-align: middle; }
     .contents .contents-heading .contents-heading-text {
@@ -552,11 +557,16 @@ body, a {
 
 .listBar {
   background-color: #fff; }
+  .listBar .listBar-hedding {
+    padding: 6px 8px;
+    font-weight: bold; }
   .listBar .listBar-item {
     padding: 6px 20px 6px 8px;
     border-bottom: 1px solid #efe9d3; }
     .listBar .listBar-item:last-child {
       border-bottom: 0; }
+    .listBar .listBar-item .listBar-item-inner {
+      padding: 14px 0; }
     .listBar .listBar-item .listBar-item-id {
       font-size: 16px;
       text-align: center; }
@@ -571,8 +581,6 @@ body, a {
     .listBar .listBar-item .listBar-item-title {
       font-size: 16px;
       font-weight: bold; }
-    .listBar .listBar-item .listBar-item-text {
-      padding-right: 15px; }
     .listBar .listBar-item .listBar-item-badge {
       color: #fff;
       font-weight: bold;
@@ -899,3 +907,14 @@ body, a {
       text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); }
   .l-premiumList > li .l-premiumList-thumbnail {
     width: 248px; }
+
+.relation .relation-heading {
+  padding: 6px 8px;
+  border: 1px solid #efe9d3;
+  border-bottom: 0;
+  background-color: #fff;
+  color: #4d2200;
+  font-weight: bold; }
+
+.relation .relation-list {
+  border: 1px solid #efe9d3; }

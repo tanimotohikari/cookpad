@@ -32,7 +32,12 @@
   text-align: center;
 }
 
-/*コンテンツの中央寄せ*/
+/*コンテンツ中央寄せ*/
+.vertical-middle {
+  vertical-align: middle;
+}
+
+/*コンテンツ中央寄せ*/
 .center {
   display: flex;
   justify-content: center;
