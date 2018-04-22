@@ -361,7 +361,7 @@ body, a {
 .l-listBar .l-listBar-item {
   position: relative; }
   .l-listBar .l-listBar-item .l-listBar-item-anchor {
-    widows: 100%;
+    width: 100%;
     display: table; }
     .l-listBar .l-listBar-item .l-listBar-item-anchor:after {
       display: inline-block;
@@ -385,12 +385,8 @@ body, a {
     right: 20px;
     margin-top: -11px; }
 
-.l-carousel .l-carsol-title {
-  position: relative; }
-  .l-carousel .l-carsol-title .l-carsol-title-icon {
-    position: absolute;
-    top: 8px;
-    left: 30px; }
+.l-carousel .l-carousel-title .l-carousel-title-icon {
+  vertical-align: middle; }
 
 .l-categoryList .l-categoryList-thumbnail {
   width: 40px;
@@ -545,39 +541,46 @@ body, a {
 .text-ranking {
   color: #a6744d; }
 
+.text-title {
+  color: #4d2200; }
+
 .step {
   font-size: 16px; }
   .step .step-item {
     padding: 10px;
     border-bottom: 1px solid #efe9d3; }
 
-.listBar .listBar-item {
-  padding: 6px 20px 6px 8px;
-  border-bottom: 1px solid #efe9d3; }
-  .listBar .listBar-item .listBar-item-id {
-    font-size: 16px;
-    text-align: center; }
-  .listBar .listBar-item .listBar-item-anchor:after {
-    content: '';
-    border-top: 3px solid #bfbcb0;
-    border-right: 3px solid #bfbcb0;
-    border-radius: 3px;
-    transform: rotate(45deg); }
-  .listBar .listBar-item .listBar-item-thumbnail {
-    border-radius: 5px; }
-  .listBar .listBar-item .listBar-item-title {
-    font-size: 16px;
-    font-weight: bold; }
-  .listBar .listBar-item .listBar-item-text {
-    padding-right: 15px; }
-  .listBar .listBar-item .listBar-item-badge {
-    color: #fff;
-    font-weight: bold;
-    background-color: #bfbcb0;
-    border: 1px solid #bfbcb0;
-    border-radius: 15px;
-    padding: 0px 8px;
-    font-size: 11px; }
+.listBar {
+  background-color: #fff; }
+  .listBar .listBar-item {
+    padding: 6px 20px 6px 8px;
+    border-bottom: 1px solid #efe9d3; }
+    .listBar .listBar-item:last-child {
+      border-bottom: 0; }
+    .listBar .listBar-item .listBar-item-id {
+      font-size: 16px;
+      text-align: center; }
+    .listBar .listBar-item .listBar-item-anchor:after {
+      content: '';
+      border-top: 3px solid #bfbcb0;
+      border-right: 3px solid #bfbcb0;
+      border-radius: 3px;
+      transform: rotate(45deg); }
+    .listBar .listBar-item .listBar-item-thumbnail {
+      border-radius: 5px; }
+    .listBar .listBar-item .listBar-item-title {
+      font-size: 16px;
+      font-weight: bold; }
+    .listBar .listBar-item .listBar-item-text {
+      padding-right: 15px; }
+    .listBar .listBar-item .listBar-item-badge {
+      color: #fff;
+      font-weight: bold;
+      background-color: #bfbcb0;
+      border: 1px solid #bfbcb0;
+      border-radius: 15px;
+      padding: 0px 5px;
+      font-size: 11px; }
 
 .profile {
   padding: 10px;
@@ -661,7 +664,7 @@ body, a {
   text-align: center; }
 
 .label {
-  padding: 3px 5px;
+  padding: 3px;
   margin: 0 0 2px 7px;
   border-radius: 3px;
   display: inline-block;
@@ -855,9 +858,44 @@ body, a {
   background-color: #fff;
   padding: 6px 0 10px 10px;
   border: 1px solid #eae8e3; }
+  .carousel .carousel-title {
+    color: #4d2200;
+    font-size: 13px; }
   .carousel .carousel-list {
     overflow: scroll; }
 
 .popularList > li .popularList-rank {
   background-color: #fff;
   padding: 0 2px 2px 0; }
+
+.l-premiumList::-webkit-scrollbar {
+  display: none; }
+
+.l-premiumList > li {
+  position: relative;
+  margin-right: 10px; }
+  .l-premiumList > li:first-child {
+    margin-left: 0; }
+  .l-premiumList > li .l-premiumList-body {
+    width: 100%;
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)); }
+    .l-premiumList > li .l-premiumList-body .l-premiumList-body-category {
+      width: 90px;
+      background-color: #f93;
+      padding: 1px 0;
+      border-radius: 3px;
+      font-size: 10px;
+      text-align: center;
+      color: #fff; }
+    .l-premiumList > li .l-premiumList-body .l-premiumList-body-title {
+      color: #fff;
+      font-size: 13px;
+      font-weight: bold;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); }
+  .l-premiumList > li .l-premiumList-thumbnail {
+    width: 248px; }

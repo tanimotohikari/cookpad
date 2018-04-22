@@ -1,8 +1,13 @@
 .listBar {
+  background-color: #fff;
 
   .listBar-item {
     padding: 6px 20px 6px 8px;
     border-bottom: 1px solid #efe9d3;
+
+    &:last-child {
+      border-bottom: 0;
+    }
 
     .listBar-item-id {
       font-size: 16px;
@@ -39,7 +44,7 @@
       background-color: #bfbcb0;
       border: 1px solid #bfbcb0;
       border-radius: 15px;
-      padding: 0px 8px;
+      padding: 0px 5px;
       font-size: 11px;
     }
   }
