@@ -920,3 +920,39 @@ body, a {
 
 .relation .relation-list {
   border: 1px solid #efe9d3; }
+
+.functions {
+  border-bottom: 1px solid #eae8e3; }
+  .functions .functions-item {
+    width: 33%;
+    display: inline-block;
+    padding: 5px 10px;
+    text-align: center;
+    border-right: 1px solid #eae8e3; }
+    .functions .functions-item:last-child {
+      border-right: 0; }
+    .functions .functions-item.category:before {
+      content: '';
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      background: url("../img/icon-function-category.png") no-repeat;
+      background-size: 24px;
+      padding-right: 5px; }
+    .functions .functions-item.myfolder:before {
+      content: '';
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      background: url("../img/icon-function-folder.png") no-repeat;
+      background-size: 24px;
+      padding-right: 5px; }
+    .functions .functions-item.history:before {
+      content: '';
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      width: 15px;
+      background: url("../img/icon-function-history.png") no-repeat;
+      background-size: 24px;
+      padding-right: 5px; }
