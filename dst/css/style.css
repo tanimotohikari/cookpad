@@ -563,8 +563,6 @@ body, a {
   .listBar .listBar-item {
     padding: 6px 20px 6px 8px;
     border-bottom: 1px solid #efe9d3; }
-    .listBar .listBar-item:last-child {
-      border-bottom: 0; }
     .listBar .listBar-item .listBar-item-inner {
       padding: 8px 0; }
     .listBar .listBar-item .listBar-item-id {
