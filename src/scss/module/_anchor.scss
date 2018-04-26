@@ -1,0 +1,18 @@
+.anchor {
+  display: block;
+  position: relative;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -5px;
+    display: block;
+    padding: 4px;
+    border-top: 3px solid #bfbcb0;
+    border-right: 3px solid #bfbcb0;
+    border-radius: 3px;
+    transform: rotate(45deg);
+  }
+}

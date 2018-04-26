@@ -5,19 +5,13 @@
 
   .tab-btn {
     box-shadow: inset 1px 0 0 #fff;
-
-    .tab-btn-anchor {
-      padding:: 8px 0;
-      background: linear-gradient(to bottom, #fcfcfa, #efeee7);
-      text-shadow: 0 -1px 0 #7e796a;
-    }
+    padding:: 8px 0;
+    background: linear-gradient(to bottom, #fcfcfa, #efeee7);
+    text-shadow: 0 -1px 0 #7e796a;
 
     &.btn-selected {
-
-      .tab-btn-anchor {
-        color: #fff;
-        background: linear-gradient(to bottom, #8c8676, #a6a090);
-      }
+      color: #fff;
+      background: linear-gradient(to bottom, #8c8676, #a6a090);
     }
   }
 }
