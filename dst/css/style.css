@@ -603,8 +603,7 @@ body, a {
 .footer {
   text-align: center;
   padding: 15px 10px;
-  background-color: #f7f3e8;
-  border-top: 1px solid #bfbcb0; }
+  background-color: #f7f3e8; }
   .footer .footer-list {
     text-align: center;
     font-size: 13px;
@@ -705,6 +704,11 @@ body, a {
   border-radius: 4px;
   background-color: #fff;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.4); }
+  .card .card-title {
+    font-size: 16px;
+    line-height: 1.5em;
+    padding: 14px 6px 10px 12px;
+    border-bottom: 1px solid #e8e2d6; }
 
 .premiumMenu .premiumMenu-date {
   font-size: 18px;
@@ -826,13 +830,21 @@ body, a {
   .featureList .featureList-body {
     color: #4c4a40;
     font-size: 11px;
-    padding: 10px 10px 5px 5px;
+    padding: 10px 10px 0 10px;
     box-sizing: border-box; }
+    .featureList .featureList-body .featureList-body-label {
+      display: inline-block;
+      margin-bottom: 8px;
+      border-radius: 12px;
+      padding: 0 16px;
+      text-align: center;
+      background-color: #f5f3eb;
+      font-size: 12px; }
     .featureList .featureList-body .featureList-body-title {
       color: #889b00;
       font-size: 16px;
       font-weight: bold;
-      padding-right: 20px; }
+      padding-right: 25px; }
     .featureList .featureList-body .featureList-body-contributor {
       color: #99958a; }
 
@@ -841,7 +853,6 @@ body, a {
   border-radius: 3px;
   text-align: center; }
   .tab .tab-btn {
-    box-shadow: inset 1px 0 0 #fff;
     padding: 8px 0;
     background: linear-gradient(to bottom, #fcfcfa, #efeee7);
     text-shadow: 0 -1px 0 #7e796a; }
