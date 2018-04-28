@@ -141,8 +141,11 @@ body, a {
 .l-padding {
   padding: 10px; }
 
-.l-padding-right {
+.l-padding-right-small {
   padding-right: 10px; }
+
+.l-padding-right {
+  padding-right: 15px; }
 
 /*行間レイアウト*/
 .l-lineheight {
@@ -551,7 +554,7 @@ body, a {
 .text-anchor {
   border-bottom: 1px solid #330000; }
 
-.text-info {
+.text-light {
   color: #99958a; }
 
 .text-ranking {
@@ -1000,6 +1003,18 @@ body, a {
 .border-separate-top {
   border-top: 1px solid #efe9d3; }
 
+.border-decoration-left.recipe {
+  border-left: 6px solid #889b00; }
+
+.border-decoration-left.pro-recipe {
+  border-left: 6px solid #4ab8b9; }
+
+.border-decoration-left.tv {
+  border-left: 6px solid #ff9933; }
+
+.border-decoration-left.lesson {
+  border-left: 6px solid #c38bac; }
+
 .anchor {
   display: block;
   position: relative; }
@@ -1009,7 +1024,6 @@ body, a {
     top: 50%;
     right: 0;
     margin-top: -5px;
-    display: block;
     padding: 4px;
     border-top: 3px solid #bfbcb0;
     border-right: 3px solid #bfbcb0;

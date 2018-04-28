@@ -9,3 +9,22 @@
 .border-separate-top {
   border-top: 1px solid #efe9d3;
 }
+
+.border-decoration-left {
+
+  &.recipe {
+    border-left: 6px solid #889b00;
+  }
+
+  &.pro-recipe {
+    border-left: 6px solid #4ab8b9;
+  }
+
+  &.tv {
+    border-left: 6px solid #ff9933;
+  }
+
+  &.lesson {
+    border-left: 6px solid #c38bac;
+  }
+}
