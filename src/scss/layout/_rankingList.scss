@@ -1,17 +1,31 @@
 .l-rankingList {
-  min-width: 300px;
+  min-width: 285px;
+  margin: 0 auto;
+
+  & > li {
+    padding: 0 3px;
+  }
 
   & > li > * {
     display: block;
-    margin: 0 auto;
   }
 
   .l-rankingList-icon {
     width: 20px;
+    margin: 0 auto;
+  }
+
+  .l-rankingList-icon-large {
+    width: 24px;
+    margin: 0 auto;
   }
 
   .l-rankingList-thumbnail {
     width: 65px;
+  }
+
+  .l-rankingList-thumbnail-large {
+    width: 88px;
   }
 
   .l-rankingList-info {

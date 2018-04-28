@@ -60,4 +60,11 @@
       font-weight: bold;
     }
   }
+
+  .new-arrival {
+
+    & > * {
+      box-sizing: border-box;
+    }
+  }
 }
