@@ -38,15 +38,19 @@
   <div class='main-visual'>
     <img class='full' src='./src/img/top-main-visual.jpg' alt='メインビジュアル'>
     <div class='main-visual-body'>
-      <span></span>
-      <p class='main-visual-body-title'></p>
-      <p class='main-visual-body-contributor'></p>
+      <p class='main-visual-body-date'>4月<br><span class='text-large'>28</span></p>
+      <p class='main-visual-body-title'>新ジャガで★ハッセルバックポテト</p>
     </div>
+    <div class='main-visual-contributor'><img class='main-visual-contributor-thumbnail' src='./src/img/person2.jpg' alt='投稿者の写真'><span class='l-left-small'>トイロ＊</span></div>
   </div>
-  <ul class='l-row functions'>
-    <li class='functions-item category'>カテゴリ<a href='＃'></a></li>
-    <li class='functions-item myfolder'>MYフォルダ<a href='＃'></a></li>
-    <li class='functions-item history'>最近見たレシピ<a href='＃'></a></li>
+  <ul class='l-table functions'>
+    <li class='functions-item category'>
+      <a class='text-small text-bold' href='＃'>
+        カテゴリ
+      </a>
+    </li>
+    <li class='functions-item myfolder'><a class='text-small text-bold' href='＃'>MYフォルダ</a></li>
+    <li class='functions-item history'><a class='text-small text-bold' href='＃'>最近見たレシピ</a></li>
   </ul>
 
   <section class='contents'>
@@ -64,7 +68,7 @@
     </div>
 
     <div class='contents-inner'>
-      <div class='card'>
+      <div class='card border-decoration-top main'>
         <h2 class='card-title'>
           <img class='vertical-middle' src='./src/img/icon-premium.png' alt='プレミアムサービスのアイコン' width='16px'>
           <span class='vertical-middle'>プレミアムサービス</span>
@@ -83,11 +87,17 @@
     </div>
 
     <div class='contents-inner news'>
-      <div class='card'>
+      <div class='card border-decoration-top arrival'>
         <h2 class='card-title'>新着ニュース</h2>
         <div class='new-arrival clearfix'>
-          <img class='half left' src='./src/img/new-arrivals01.jpg' alt='新着ニュース'>
-          <img class='half left border-left-separate' src='./src/img/new-arrivals02.jpg' alt='新着ニュース'>
+          <div class='left half'>
+            <img class='full' src='./src/img/new-arrivals01.jpg' alt='新着ニュース'>
+            <p class='new-arrival-title'>「ガーリック味パン粉」がクセになる旨さ<span class='new-arrival-label'>NEW</span></p>
+          </div>
+          <div class='left half border-left-separate'>
+            <img class='full' src='./src/img/new-arrivals02.jpg' alt='新着ニュース'>
+            <p class='new-arrival-title'>「アスパラのマリネ」味バリエ5選</p>
+          </div>
         </div>
         <ul class='l-listBar listBar'>
           <li class='l-listBar-item listBar-item'>
@@ -111,7 +121,7 @@
     </div>
 
     <div class='contents-inner news'>
-      <div class='card'>
+      <div class='card border-decoration-top recipe'>
         <h2 class='card-title'>人気レシピ</h2>
         <h3 class='card-heading'>
           <img class='vertical-middle' src='./src/img/icon-premium.png' alt='プレミアムサービスのアイコン' width='16px'>
@@ -158,14 +168,14 @@
     </div>
 
     <div class='contents-inner'>
-      <div class='card advertisement'>
+      <div class='card advertisement border-decoration-top other'>
         <h2 class='card-title'><span class='advertisement-label'>広告</span>おすすめ特集</h2>
         <p class='advertisement-contents'>毎週更新！おすすめ特集</p>
       </div>
     </div>
 
     <div class='contents-inner'>
-      <div class='card'>
+      <div class='card border-decoration-top recipe'>
         <h2 class='card-title'><span class='text-light text-small'>旬のキーワード「食パン」</span><br>食パンの新着レシピ</h2>
         <ul class='l-featureList featureList'>
           <li class='clearfix'>
@@ -198,6 +208,7 @@
     </div>
 
     <div>
+      <!-- border-decoration-top recipe -->
       <h2>新作レシピコンテスト</h2>
       <div>
         <p>レシピ募集<span>4/2~5/1のテーマ</span></p>

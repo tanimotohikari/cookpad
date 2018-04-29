@@ -28,3 +28,22 @@
     border-left: 6px solid #c38bac;
   }
 }
+
+.border-decoration-top {
+
+  &.main {
+    border-top: 3px solid #ff9933;
+  }
+
+  &.recipe {
+    border-top: 3px solid #889b00;
+  }
+
+  &.arrival {
+    border-top: 3px solid #4d2200;
+  }
+
+  &.other {
+    border-top: 3px solid #65382f;
+  }
+}

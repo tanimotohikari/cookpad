@@ -3,44 +3,35 @@
 
   .functions-item {
     width: 33%;
-    display: inline-block;
     padding: 5px 10px;
-    text-align: center;
     border-right: 1px solid #eae8e3;
 
     &:last-child {
       border-right: 0;
     }
 
-    &.category:before {
+    &:before {
       content: '';
-      display: inline-block;
-      width: 24px;
-      height: 24px;
-      background: url('../img/icon-function-category.png') no-repeat;
-      background-size: 24px;
+      display: block;
+      float: left;
+      width: 18px;
+      height: 18px;
       padding-right: 5px;
+    }
+
+    &.category:before {
+      background: url('../img/icon-function-category.png') no-repeat;
+      background-size: 18px;
     }
 
     &.myfolder:before {
-      content: '';
-      display: inline-block;
-      width: 24px;
-      height: 24px;
       background: url('../img/icon-function-folder.png') no-repeat;
-      background-size: 24px;
-      padding-right: 5px;
+      background-size: 18px;
     }
 
     &.history:before {
-      content: '';
-      display: inline-block;
-      width: 24px;
-      height: 24px;
-      width: 15px;
       background: url('../img/icon-function-history.png') no-repeat;
-      background-size: 24px;
-      padding-right: 5px;
+      background-size: 18px;
     }
   }
 }

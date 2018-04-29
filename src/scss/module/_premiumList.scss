@@ -1,4 +1,4 @@
-.l-premiumList {
+.premiumList {
 
   &::-webkit-scrollbar {
     display: none;
@@ -12,7 +12,7 @@
       margin-left: 0;
     }
 
-    .l-premiumList-body {
+    .premiumList-body {
       width: 100%;
       position: absolute;
       bottom: 4px;
@@ -21,7 +21,7 @@
       box-sizing: border-box;
       background: linear-gradient(transparent, rgba(0, 0, 0, 0.4));
 
-      .l-premiumList-body-category {
+      .premiumList-body-category {
         width: 90px;
         background-color: #f93;
         padding: 1px 0;
@@ -31,7 +31,7 @@
         color: #fff;
       }
 
-      .l-premiumList-body-title {
+      .premiumList-body-title {
         color: #fff;
         font-size: 13px;
         font-weight: bold;
@@ -39,7 +39,7 @@
       }
     }
 
-    .l-premiumList-thumbnail {
+    .premiumList-thumbnail {
       width: 248px;
     }
   }
