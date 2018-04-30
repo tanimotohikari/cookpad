@@ -1076,9 +1076,11 @@ body, a {
     color: #fff;
     font-weight: bold;
     padding: 10px;
+    width: 100%;
     position: absolute;
     bottom: 0;
-    left: 0; }
+    left: 0;
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.4)); }
     .main-visual .main-visual-body > * {
       display: inline-block; }
     .main-visual .main-visual-body .main-visual-body-date {
@@ -1105,6 +1107,27 @@ body, a {
       width: 20px;
       vertical-align: middle;
       border-radius: 3px; }
+
+.campaign .campaign-appeal {
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding: 25px 30px 10px 35px; }
+  .campaign .campaign-appeal .campaign-appeal-emphasis {
+    font-size: 32px; }
+    .campaign .campaign-appeal .campaign-appeal-emphasis.date-number {
+      font-size: 43px; }
+
+.campaign .campaign-merit {
+  font-size: 12px;
+  text-align: center;
+  line-height: 1.3em;
+  padding: 5px 0;
+  background: #ffe6cc none no-repeat left center;
+  border-radius: 4px; }
 
 .is-block {
   display: block; }

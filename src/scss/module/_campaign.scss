@@ -1,0 +1,30 @@
+.campaign {
+
+  .campaign-appeal {
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 25px 30px 10px 35px;
+
+    .campaign-appeal-emphasis {
+      font-size: 32px;
+
+      &.date-number {
+        font-size: 43px;
+      }
+    }
+
+  }
+
+  .campaign-merit {
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.3em;
+    padding: 5px 0;
+    background: #ffe6cc none no-repeat left center;
+    border-radius: 4px;
+  }
+}
