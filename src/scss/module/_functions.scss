@@ -3,35 +3,27 @@
 
   .functions-item {
     width: 33%;
-    padding: 5px 10px;
     border-right: 1px solid #eae8e3;
 
     &:last-child {
       border-right: 0;
     }
 
-    &:before {
-      content: '';
-      display: block;
-      float: left;
-      width: 18px;
-      height: 18px;
+    .functions-item-inner {
+      margin: 0 auto;
+      padding: 10px 5px;
+      vertical-align: middle;
+    }
+
+    .functions-item-icon {
+      width: 22px;
       padding-right: 5px;
     }
 
-    &.category:before {
-      background: url('../img/icon-function-category.png') no-repeat;
-      background-size: 18px;
-    }
-
-    &.myfolder:before {
-      background: url('../img/icon-function-folder.png') no-repeat;
-      background-size: 18px;
-    }
-
-    &.history:before {
-      background: url('../img/icon-function-history.png') no-repeat;
-      background-size: 18px;
+    .functions-item-text {
+      font-size: 12px;
+      font-weight: bold;
+      vertical-align: middle;
     }
   }
 }

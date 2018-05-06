@@ -999,26 +999,20 @@ body, a {
   border-bottom: 1px solid #eae8e3; }
   .functions .functions-item {
     width: 33%;
-    padding: 5px 10px;
     border-right: 1px solid #eae8e3; }
     .functions .functions-item:last-child {
       border-right: 0; }
-    .functions .functions-item:before {
-      content: '';
-      display: block;
-      float: left;
-      width: 18px;
-      height: 18px;
+    .functions .functions-item .functions-item-inner {
+      margin: 0 auto;
+      padding: 10px 5px 5px;
+      vertical-align: middle; }
+    .functions .functions-item .functions-item-icon {
+      width: 22px;
       padding-right: 5px; }
-    .functions .functions-item.category:before {
-      background: url("../img/icon-function-category.png") no-repeat;
-      background-size: 18px; }
-    .functions .functions-item.myfolder:before {
-      background: url("../img/icon-function-folder.png") no-repeat;
-      background-size: 18px; }
-    .functions .functions-item.history:before {
-      background: url("../img/icon-function-history.png") no-repeat;
-      background-size: 18px; }
+    .functions .functions-item .functions-item-text {
+      font-size: 12px;
+      font-weight: bold;
+      vertical-align: middle; }
 
 .border-bottom {
   border-bottom: 1px solid #efe9d3; }
