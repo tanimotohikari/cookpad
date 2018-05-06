@@ -1,0 +1,38 @@
+.contest {
+  background-color: #fef6de;
+
+  .contest-body {
+    padding: 10px;
+  }
+
+  .contest-title {
+    color: #ff9933;
+    font-size: 15px;
+    text-align: center;
+    height: 42px;
+    background: url('../img/contest-logo.png') no-repeat;
+    background-size: 42px;
+    padding-top: 10px;
+    padding-left: 45px;
+  }
+
+  .contest-theme {
+    color: #330000;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .contest-period {
+    color:#fff;
+    font-size: 12px;
+    padding: 5px 30px;
+    background-color: #330000;
+    border-radius: 20px;
+  }
+
+  .contest-contents-separate {
+    height: 5px;
+    background: url('../img/contest-border.png') repeat-x;
+  }
+}

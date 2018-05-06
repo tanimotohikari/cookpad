@@ -14,6 +14,10 @@
   font-size: 18px !important;
 }
 
+.text-xlarge {
+  font-size: 21px !important;
+}
+
 .text-bold {
   font-weight: bold;
 }
@@ -33,6 +37,7 @@
 }
 
 .text-light {
+  /*text-color-lightとかのほうがわかりやすい？*/
   color: #99958a;
 }
 

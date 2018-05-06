@@ -15,5 +15,17 @@
   .l-featureList-body {
     width: 207px;
     float: left;
+    position: relative;
+
+    &.l-featureList-body-arrival:after {
+      content: '';
+      position: absolute;
+      top: -1px;
+      right: 0;
+      width: 43px;
+      height: 43px;
+      background: url('../img/contest-new-arrival.png') no-repeat;
+      background-size: 43px;
+    }
   }
 }

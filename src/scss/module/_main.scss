@@ -1,5 +1,4 @@
 .main-visual {
-  height: 200px;
   position: relative;
 
   .main-visual-body {
@@ -8,7 +7,7 @@
     padding: 10px;
     width: 100%;;
     position: absolute;
-    bottom: 0;
+    bottom: 5px;
     left: 0;
     background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.4));
 

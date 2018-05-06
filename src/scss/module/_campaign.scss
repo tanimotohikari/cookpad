@@ -9,18 +9,22 @@
     text-align: center;
     padding: 25px 30px 10px 35px;
 
+    .campaign-appeal-text {
+      font-size: 21px;
+    }
+
     .campaign-appeal-emphasis {
       font-size: 32px;
+    }
 
-      &.date-number {
-        font-size: 43px;
-      }
+    .campaign-appeal-emphasis-number {
+      font-size: 43px;
     }
 
   }
 
   .campaign-merit {
-    font-size: 12px;
+    font-size: 13px;
     text-align: center;
     line-height: 1.3em;
     padding: 5px 0;

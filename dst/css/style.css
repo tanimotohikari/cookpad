@@ -185,7 +185,17 @@ body, a {
 
 .l-featureList .l-featureList-body {
   width: 207px;
-  float: left; }
+  float: left;
+  position: relative; }
+  .l-featureList .l-featureList-body.l-featureList-body-arrival:after {
+    content: '';
+    position: absolute;
+    top: -1px;
+    right: 0;
+    width: 43px;
+    height: 43px;
+    background: url("../img/contest-new-arrival.png") no-repeat;
+    background-size: 43px; }
 
 .l-material {
   width: 100%; }
@@ -544,6 +554,9 @@ body, a {
 .text-large {
   font-size: 18px !important; }
 
+.text-xlarge {
+  font-size: 21px !important; }
+
 .text-bold {
   font-weight: bold; }
 
@@ -558,6 +571,7 @@ body, a {
   border-bottom: 1px solid #330000; }
 
 .text-light {
+  /*text-color-lightとかのほうがわかりやすい？*/
   color: #99958a; }
 
 .text-ranking {
@@ -683,6 +697,7 @@ body, a {
     border: 1px solid #a2a098; }
 
 .btn-more {
+  display: block;
   line-height: 45px;
   color: #99958a;
   text-align: center; }
@@ -1070,7 +1085,6 @@ body, a {
   background-color: #fff; }
 
 .main-visual {
-  height: 200px;
   position: relative; }
   .main-visual .main-visual-body {
     color: #fff;
@@ -1078,7 +1092,7 @@ body, a {
     padding: 10px;
     width: 100%;
     position: absolute;
-    bottom: 0;
+    bottom: 5px;
     left: 0;
     background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.4)); }
     .main-visual .main-visual-body > * {
@@ -1116,18 +1130,48 @@ body, a {
   font-weight: bold;
   text-align: center;
   padding: 25px 30px 10px 35px; }
+  .campaign .campaign-appeal .campaign-appeal-text {
+    font-size: 21px; }
   .campaign .campaign-appeal .campaign-appeal-emphasis {
     font-size: 32px; }
-    .campaign .campaign-appeal .campaign-appeal-emphasis.date-number {
-      font-size: 43px; }
+  .campaign .campaign-appeal .campaign-appeal-emphasis-number {
+    font-size: 43px; }
 
 .campaign .campaign-merit {
-  font-size: 12px;
+  font-size: 13px;
   text-align: center;
   line-height: 1.3em;
   padding: 5px 0;
   background: #ffe6cc none no-repeat left center;
   border-radius: 4px; }
+
+.contest {
+  background-color: #fef6de; }
+  .contest .contest-body {
+    padding: 10px; }
+  .contest .contest-title {
+    color: #ff9933;
+    font-size: 15px;
+    text-align: center;
+    height: 42px;
+    background: url("../img/contest-logo.png") no-repeat;
+    background-size: 42px;
+    padding-top: 10px;
+    padding-left: 45px; }
+  .contest .contest-theme {
+    color: #330000;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center; }
+  .contest .contest-period {
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 30px;
+    background-color: #330000;
+    border-radius: 20px; }
+  .contest .contest-contents-separate {
+    height: 5px;
+    background: url("../img/contest-border.png") repeat-x; }
 
 .is-block {
   display: block; }
