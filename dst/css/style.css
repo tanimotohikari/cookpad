@@ -133,7 +133,9 @@ body, a {
 
 /*tableレイアウト*/
 .l-table {
-  display: table; }
+  width: 100%;
+  display: table;
+  table-layout: fixed; }
   .l-table > * {
     display: table-cell; }
 
@@ -1134,11 +1136,13 @@ body, a {
   text-align: center;
   padding: 25px 30px 10px 35px; }
   .campaign .campaign-appeal .campaign-appeal-text {
-    font-size: 21px; }
+    font-size: 20px;
+    vertical-align: 6px; }
   .campaign .campaign-appeal .campaign-appeal-emphasis {
     font-size: 32px; }
   .campaign .campaign-appeal .campaign-appeal-emphasis-number {
-    font-size: 43px; }
+    font-size: 38px;
+    margin-right: -8px; }
 
 .campaign .campaign-merit {
   font-size: 13px;
