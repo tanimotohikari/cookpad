@@ -1,5 +1,9 @@
 .rankingList {
 
+  & > li {
+    text-align: center;
+  }
+
   .rankingList-thumbnail {
     border-radius: 5px;
   }

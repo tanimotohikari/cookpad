@@ -4,6 +4,10 @@
   & > li {
     border-right: 1px solid #eae8e3;
     border-bottom: 1px solid #eae8e3;
+  }
+
+  .rowList-anchor {
+    display: block;
     padding: 10px;
   }
 }

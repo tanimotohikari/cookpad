@@ -174,7 +174,7 @@ body, a {
     margin: 2px auto; }
 
 .l-featureList .l-featureList-thumbnail {
-  width: 95px;
+  width: 31%;
   float: left; }
 
 .l-featureList .l-featureList-bookmark {
@@ -184,7 +184,7 @@ body, a {
   right: 10px; }
 
 .l-featureList .l-featureList-body {
-  width: 207px;
+  width: 69%;
   float: left;
   position: relative; }
   .l-featureList .l-featureList-body.l-featureList-body-arrival:after {
@@ -297,27 +297,30 @@ body, a {
 .l-profile .l-profile-name {
   margin-bottom: 5px; }
 
-.l-rankingList {
-  min-width: 285px;
+.l-rankingList > li {
+  padding: 0 3px; }
+
+.l-rankingList > li > * {
+  display: block; }
+
+.l-rankingList .l-rankingList-icon {
+  width: 20px;
   margin: 0 auto; }
-  .l-rankingList > li {
-    padding: 0 3px; }
-  .l-rankingList > li > * {
-    display: block; }
-  .l-rankingList .l-rankingList-icon {
-    width: 20px;
-    margin: 0 auto; }
-  .l-rankingList .l-rankingList-icon-large {
-    width: 24px;
-    margin: 0 auto; }
-  .l-rankingList .l-rankingList-thumbnail {
-    width: 65px; }
-  .l-rankingList .l-rankingList-thumbnail-large {
-    width: 88px; }
-  .l-rankingList .l-rankingList-info {
-    width: 85px; }
-    .l-rankingList .l-rankingList-info .l-rankingList-info-title {
-      margin: 15px 0 5px; }
+
+.l-rankingList .l-rankingList-icon-large {
+  width: 24px;
+  margin: 0 auto; }
+
+.l-rankingList .l-rankingList-thumbnail {
+  width: 65px; }
+
+.l-rankingList .l-rankingList-thumbnail-large {
+  max-width: 105px; }
+
+.l-rankingList .l-rankingList-info {
+  width: 85px; }
+  .l-rankingList .l-rankingList-info .l-rankingList-info-title {
+    margin: 15px 0 5px; }
 
 .l-rowList > li {
   width: 50%;
@@ -374,7 +377,7 @@ body, a {
 .l-recipe .l-recipe-information .l-recipe-information-person .l-recipe-information-person-thumbnail {
   width: 18px; }
 
-.l-recipe .l-recipe-information .l-recipe-information-report-badge {
+.l-recipe .l-recipe-information .l-recipe-information-badge {
   position: absolute;
   top: 50%;
   right: 4px;
@@ -486,7 +489,7 @@ body, a {
     padding: 7px;
     border: 1px solid #e2e0da;
     border-radius: 20px; }
-  .recipe .recipe-information .recipe-information-report-badge {
+  .recipe .recipe-information .recipe-information-badge {
     color: #fff;
     font-weight: bold;
     background-color: #bfbcb0;
@@ -571,7 +574,6 @@ body, a {
   border-bottom: 1px solid #330000; }
 
 .text-light {
-  /*text-color-lightとかのほうがわかりやすい？*/
   color: #99958a; }
 
 .text-ranking {
@@ -715,6 +717,9 @@ body, a {
   .label.label-updata {
     background-color: #ef6074; }
 
+.rankingList > li {
+  text-align: center; }
+
 .rankingList .rankingList-thumbnail {
   border-radius: 5px; }
 
@@ -738,7 +743,8 @@ body, a {
   background-color: #fff;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.4); }
   .card .card-inner {
-    padding: 10px 5px; }
+    padding: 10px 5px;
+    box-sizing: border-box; }
   .card .card-title {
     font-size: 16px;
     line-height: 1.5em;
@@ -880,7 +886,9 @@ body, a {
   background-color: #fff; }
   .rowList > li {
     border-right: 1px solid #eae8e3;
-    border-bottom: 1px solid #eae8e3;
+    border-bottom: 1px solid #eae8e3; }
+  .rowList .rowList-anchor {
+    display: block;
     padding: 10px; }
 
 .featureList {
@@ -921,7 +929,7 @@ body, a {
     padding: 8px 0;
     background: linear-gradient(to bottom, #fcfcfa, #efeee7);
     text-shadow: 0 -1px 0 #7e796a; }
-    .tab .tab-btn.btn-selected {
+    .tab .tab-btn.tab-btn-selected {
       color: #fff;
       background: linear-gradient(to bottom, #8c8676, #a6a090); }
 
@@ -1004,7 +1012,7 @@ body, a {
       border-right: 0; }
     .functions .functions-item .functions-item-inner {
       margin: 0 auto;
-      padding: 10px 5px 5px;
+      padding: 10px 5px;
       vertical-align: middle; }
     .functions .functions-item .functions-item-icon {
       width: 22px;
@@ -1085,6 +1093,7 @@ body, a {
     font-weight: bold;
     padding: 10px;
     width: 100%;
+    box-sizing: border-box;
     position: absolute;
     bottom: 5px;
     left: 0;

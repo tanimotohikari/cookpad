@@ -1,6 +1,4 @@
 .l-rankingList {
-  min-width: 285px;
-  margin: 0 auto;
 
   & > li {
     padding: 0 3px;
@@ -25,7 +23,7 @@
   }
 
   .l-rankingList-thumbnail-large {
-    width: 88px;
+    max-width: 105px;
   }
 
   .l-rankingList-info {
