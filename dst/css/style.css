@@ -324,10 +324,12 @@ body, a {
   .l-rankingList .l-rankingList-info .l-rankingList-info-title {
     margin: 15px 0 5px; }
 
-.l-rowList > li {
-  width: 50%;
-  float: left;
-  box-sizing: border-box; }
+.l-rowList {
+  /*２列リスト*/ }
+  .l-rowList > li {
+    width: 50%;
+    float: left;
+    box-sizing: border-box; }
 
 .l-step .l-step-item .l-step-item-body {
   display: -ms-flexbox;
@@ -1033,18 +1035,6 @@ body, a {
 .border-separate-top {
   border-top: 1px solid #efe9d3; }
 
-.border-decoration-left.recipe {
-  border-left: 6px solid #889b00; }
-
-.border-decoration-left.pro-recipe {
-  border-left: 6px solid #4ab8b9; }
-
-.border-decoration-left.tv {
-  border-left: 6px solid #ff9933; }
-
-.border-decoration-left.lesson {
-  border-left: 6px solid #c38bac; }
-
 .border-decoration-top.main {
   border-top: 3px solid #ff9933; }
 
@@ -1179,6 +1169,48 @@ body, a {
   .contest .contest-contents-separate {
     height: 5px;
     background: url("../img/contest-border.png") repeat-x; }
+
+.service .service-list {
+  font-weight: bold; }
+  .service .service-list .service-lest-recipe {
+    border-left: 6px solid #889b00; }
+  .service .service-list .service-lest-proRecipe {
+    border-left: 6px solid #4ab8b9; }
+  .service .service-list .service-lest-tv {
+    border-left: 6px solid #ff9933; }
+  .service .service-list .service-lest-lesson {
+    border-left: 6px solid #c38bac; }
+
+.service .service-premiumList {
+  font-weight: bold; }
+  .service .service-premiumList .service-premiumList-anchor {
+    font-size: 12px;
+    padding-left: 30px; }
+  .service .service-premiumList > li {
+    padding: 10px 0 10px 5px;
+    position: relative;
+    border-right: 1px solid #eae8e3;
+    border-bottom: 1px solid #eae8e3; }
+    .service .service-premiumList > li:before {
+      position: absolute;
+      top: 50%;
+      margin-top: -13px;
+      display: inline-block;
+      content: '';
+      width: 25px;
+      height: 25px; }
+  .service .service-premiumList .service-premiumList-ranking:before {
+    background: url("../img/icon-recipe-ranking.png") no-repeat;
+    background-size: 25px; }
+  .service .service-premiumList .service-premiumList-honor:before {
+    background: url("../img/icon-honor-recipe.png") no-repeat;
+    background-size: 25px; }
+  .service .service-premiumList .service-premiumList-experts:before {
+    background: url("../img/icon-experts-recipe.png") no-repeat;
+    background-size: 25px; }
+  .service .service-premiumList .service-premiumList-premium:before {
+    background: url("../img/icon-premium-menu.png") no-repeat;
+    background-size: 25px; }
 
 .is-block {
   display: block; }

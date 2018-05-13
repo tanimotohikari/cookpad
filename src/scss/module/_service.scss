@@ -1,0 +1,80 @@
+.service {
+
+  .service-list {
+    font-weight: bold;
+
+    .service-lest-recipe {
+      border-left: 6px solid #889b00;
+    }
+
+    .service-lest-proRecipe {
+      border-left: 6px solid #4ab8b9;
+    }
+
+    .service-lest-tv {
+      border-left: 6px solid #ff9933;
+    }
+
+    .service-lest-lesson {
+      border-left: 6px solid #c38bac;
+    }
+  }
+
+  .service-premiumList {
+    font-weight: bold;
+
+    .service-premiumList-anchor {
+      font-size: 12px;
+      padding-left: 30px;
+    }
+
+    & > li {
+      padding: 10px 0 10px 5px;
+      position: relative;
+      border-right: 1px solid #eae8e3;
+      border-bottom: 1px solid #eae8e3;
+
+      &:before {
+        position: absolute;
+        top: 50%;
+        margin-top: -13px;
+        display: inline-block;
+        content: '';
+        width: 25px;
+        height: 25px;
+      }
+    }
+
+    .service-premiumList-ranking {
+
+      &:before {
+        background: url('../img/icon-recipe-ranking.png') no-repeat;
+        background-size: 25px;
+      }
+    }
+
+    .service-premiumList-honor {
+
+      &:before {
+        background: url('../img/icon-honor-recipe.png') no-repeat;
+        background-size: 25px;
+      }
+    }
+
+    .service-premiumList-experts {
+
+      &:before {
+        background: url('../img/icon-experts-recipe.png') no-repeat;
+        background-size: 25px;
+      }
+    }
+
+    .service-premiumList-premium {
+
+      &:before {
+        background: url('../img/icon-premium-menu.png') no-repeat;
+        background-size: 25px;
+      }
+    }
+  }
+}
