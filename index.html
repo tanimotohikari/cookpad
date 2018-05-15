@@ -38,23 +38,23 @@
     </div>
     <div class='main-visual-contributor'><img class='main-visual-contributor-thumbnail' src='./src/img/person2.jpg' alt='投稿者の写真'><span class='l-left-small'>トイロ＊</span></div>
   </div>
-  <ul class='l-table functions'>
+  <ul class='l-row functions'>
     <li class='functions-item'>
-      <a class='l-table functions-item-inner clearfix' href='#'>
+      <a class='functions-item-inner clearfix' href='#'>
         <img class='functions-item-icon' src='./src/img/icon-function-category.png' alt='フォークとナイフのアイコン'>
-        <p class='functions-item-text'>カテゴリ</p>
+        <span class='functions-item-text'>カテゴリ</span>
       </a>
     </li>
     <li class='functions-item'>
-      <a class='l-table functions-item-inner clearfix' href='#'>
+      <a class='functions-item-inner clearfix' href='#'>
         <img class='functions-item-icon' src='./src/img/icon-function-folder.png' alt='フォルダのアイコン'>
-        <p class='functions-item-text'>MYフォルダ</p>
+        <span class='functions-item-text'>MYフォルダ</span>
       </a>
     </li>
     <li class='functions-item'>
-      <a class='l-table functions-item-inner clearfix' href='#'>
+      <a class='functions-item-inner clearfix' href='#'>
         <img class='functions-item-icon' src='./src/img/icon-function-history.png' alt='時計ののアイコン'>
-        <p class='functions-item-text'>最近見たレシピ</p>
+        <span class='functions-item-text'>最近見たレシピ</span>
       </a>
     </li>
   </ul>
@@ -74,8 +74,8 @@
     </div>
 
     <div class='contents-inner'>
-      <div class='card border-decoration-top main service'>
-        <h2 class='card-title'>
+      <div class='card service'>
+        <h2 class='card-title card-title-premiumService'>
           <img class='vertical-middle' src='./src/img/icon-premium.png' alt='プレミアムサービスのアイコン' width='16px'>
           <span class='vertical-middle'>プレミアムサービス</span>
         </h2>
@@ -86,15 +86,17 @@
           <li class='service-premiumList-premium'><a class='service-premiumList-anchor' href='premium-menu.html'>プレミアム献立</a></li>
         </ul>
         <div class='campaign'>
-          <a href='#' class='campaign-appeal anchor'><span class='campaign-appeal-text'>登録後</span><span class='campaign-appeal-emphasis-number'>７</span><span class='campaign-appeal-emphasis '>日間</span><span class='campaign-appeal-emphasis text-accent'>無料</span></a>
+          <div class='campaign-appeal'>
+            <a href='#' class='campaign-appeal-anchor'><span class='campaign-appeal-text'>登録後</span><span class='campaign-appeal-emphasis-number'>７</span><span class='campaign-appeal-emphasis '>日間</span><span class='campaign-appeal-emphasis text-accent'>無料</span></a>
+          </div>
           <p class='campaign-merit'>人気レシピが見放題<br>プレミアムサービスはこちら！</p>
         </div>
       </div>
     </div>
 
     <div class='contents-inner news'>
-      <div class='card border-decoration-top arrival'>
-        <h2 class='card-title'>新着ニュース</h2>
+      <div class='card'>
+        <h2 class='card-title card-title-arrival'>新着ニュース</h2>
         <div class='new-arrival clearfix'>
           <div class='left half'>
             <a href='news.html'>
@@ -126,13 +128,13 @@
             </a>
           </li>
         </ul>
-        <p class='align-center'><a class='btn-more' href='news.html'>もっと見る</a></p>
+        <p><a class='btn-more' href='news.html'>もっと見る</a></p>
       </div>
     </div>
 
     <div class='contents-inner news'>
-      <div class='card border-decoration-top recipe'>
-        <h2 class='card-title'>人気レシピ</h2>
+      <div class='card'>
+        <h2 class='card-title card-title-recipe'>人気レシピ</h2>
         <h3 class='card-heading'>
           <img class='vertical-middle' src='./src/img/icon-premium.png' alt='プレミアムサービスのアイコン' width='16px'>
           <span class='vertical-middle'>デイリーアクセス数ランキング</span>
@@ -165,40 +167,40 @@
         </ul>
         <p class='align-center border-separate-top'><a class='btn-more' href='accessRanking-recipe.html'>みんなが見た人気のレシピ20品</a></p>
         <h3 class='card-heading'>話題のレシピ<span class='l-left-small card-text-light'>つくれぽ10人おめでとう!</span></h3>
-        <ul class='l-table l-rankingList rankingList card-inner'>
+        <ul class='l-table l-rankingList rankingList card-inner full'>
           <li>
             <div class='l-rankingList-thumbnail-large'>
-              <img class='l-bottom-small full rankingList-thumbnail' src='./src/img/topic-recipe01.jpg' alt='ランキング1位の料理の画像'>
+              <img class='l-bottom-small full rankingList-thumbnail' src='./src/img/topic-recipe01.jpg' alt='話題のレシピの料理の画像'>
             </div>
             <p class='l-lineheight text-title text-bold text-small'>しっとりなめらかスイートポテトケーキ<span class='text-light text-xsmall'>byma＿333</span></p>
           </li>
           <li>
             <div class='l-rankingList-thumbnail-large'>
-              <img class='l-bottom-small full rankingList-thumbnail' src='./src/img/topic-recipe02.jpg' alt='ランキング2位の料理の画像'>
+              <img class='l-bottom-small full rankingList-thumbnail' src='./src/img/topic-recipe02.jpg' alt='話題のレシピの料理の画像'>
             </div>
             <p class='l-lineheight text-title text-bold text-small'>レンジで簡単♫炒り卵<span class='text-light text-xsmall'>byあんまりこ</span></p>
           </li>
           <li>
             <div class='l-rankingList-thumbnail-large'>
-              <img class='l-bottom-small full rankingList-thumbnail' src='./src/img/topic-recipe03.jpg' alt='ランキング3位の料理の画像'>
+              <img class='l-bottom-small full rankingList-thumbnail' src='./src/img/topic-recipe03.jpg' alt='話題のレシピの料理の画像'>
             </div>
             <p class='l-lineheight text-title text-bold text-small'>白菜消費に☆くたくた白菜のコンソメスープ<span class='text-light text-xsmall'>byうずらんらん</span></p>
           </li>
         </ul>
-        <p class='align-center border-separate-top'><a href='#' class='btn-more' href='text-light text-small'>もっと見る</a></p>
+        <p><a href='#' class='btn-more'>もっと見る</a></p>
       </div>
     </div>
 
     <div class='contents-inner'>
-      <div class='card advertisement border-decoration-top other'>
-        <h2 class='card-title'><span class='advertisement-label'>広告</span>おすすめ特集</h2>
+      <div class='card advertisement'>
+        <h2 class='card-title card-title-other'><span class='advertisement-label'>広告</span>おすすめ特集</h2>
         <p class='advertisement-contents'>毎週更新！おすすめ特集</p>
       </div>
     </div>
 
     <div class='contents-inner'>
-      <div class='card border-decoration-top recipe'>
-        <h2 class='card-title'><span class='text-light text-small'>旬のキーワード「食パン」</span><br>食パンの新着レシピ</h2>
+      <div class='card'>
+        <h2 class='card-title card-title-recipe'><span class='text-light text-small'>旬のキーワード「食パン」</span><br>食パンの新着レシピ</h2>
         <ul class='l-featureList featureList'>
           <li class='clearfix'>
             <img class='l-featureList-thumbnail featureList-thumbnail' src='./src/img/featureList-top01.jpg' alt='パンレシピの画像'>
@@ -230,8 +232,8 @@
     </div>
 
     <div class='contents-inner'>
-      <div class='card border-decoration-top recipe'>
-        <h2 class='card-title'>新作レシピコンテスト</h2>
+      <div class='card'>
+        <h2 class='card-title card-title-recipe'>新作レシピコンテスト</h2>
         <div class='contest'>
           <div class='contest-body'>
             <p class='l-bottom-small contest-title'>レシピ募集<span class='l-left contest-period'>4/2~5/1のテーマ</span></p>

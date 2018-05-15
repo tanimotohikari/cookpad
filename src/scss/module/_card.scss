@@ -13,6 +13,22 @@
     line-height: 1.5em;
     padding: 14px 6px 10px 12px;
     border-bottom: 1px solid #e8e2d6;
+
+    &.card-title-premiumService {
+      border-top: 3px solid #ff9933;
+    }
+
+    &.card-title-recipe {
+      border-top: 3px solid #889b00;
+    }
+
+    &.card-title-arrival {
+      border-top: 3px solid #4d2200;
+    }
+
+    &.card-title-other {
+      border-top: 3px solid #65382f;
+    }
   }
 
   .card-heading {

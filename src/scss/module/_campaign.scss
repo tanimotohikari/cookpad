@@ -7,7 +7,26 @@
     font-size: 18px;
     font-weight: bold;
     text-align: center;
-    padding: 25px 30px 10px 35px;
+    padding: 25px 15px 10px 15px;
+
+    .campaign-appeal-anchor {
+      width: 100%;
+      display: block;
+      position: relative;
+
+      &:after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: 0;
+        margin-top: -10px;
+        padding: 4px;
+        border-top: 4px solid #bfbcb0;
+        border-right: 4px solid #bfbcb0;
+        border-radius: 3px;
+        transform: rotate(45deg);
+      }
+    }
 
     .campaign-appeal-text {
       font-size: 20px;
