@@ -124,17 +124,18 @@ body, a {
   margin-right: 15px !important; }
 
 /*横並びリスト*/
-.l-list > * {
+.l-row > * {
   float: left; }
 
-.l-row {
+.l-flex {
   display: -ms-flexbox;
   display: flex; }
 
 /*tableレイアウト*/
 .l-table {
-  display: table;
-  table-layout: fixed; }
+  display: table; }
+  .l-table.l-table-fixed {
+    table-layout: fixed; }
   .l-table > * {
     display: table-cell; }
 
@@ -147,10 +148,6 @@ body, a {
 
 .l-padding-right {
   padding-right: 15px; }
-
-/*行間レイアウト*/
-.l-lineheight {
-  line-height: 1.5em; }
 
 .l-header .l-header-logo {
   padding: 8px;
@@ -435,6 +432,41 @@ body, a {
   width: 220px;
   float: left; }
 
+.l-lineheight {
+  line-height: 1.5em; }
+
+.l-topicList > li {
+  padding: 0 3px; }
+
+.l-topicList > li > * {
+  display: block; }
+
+.l-topicList .l-topicList-icon {
+  width: 20px;
+  margin: 0 auto; }
+
+.l-topicList .l-topicList-icon-large {
+  width: 24px;
+  margin: 0 auto; }
+
+.l-topicList .l-topicList-thumbnail {
+  width: 65px; }
+
+.l-topicList .l-topicList-thumbnail-large {
+  max-width: 105px; }
+
+.l-topicList .l-topicList-info {
+  width: 85px; }
+  .l-topicList .l-topicList-info .l-topicList-info-title {
+    margin: 15px 0 5px; }
+
+.l-trendKeyword {
+  position: relative; }
+  .l-trendKeyword .l-trendKeyword-arrow {
+    position: absolute;
+    top: 0;
+    right: 0; }
+
 .header {
   border-top: 3px solid #ff9933;
   background-color: #f8f6f0; }
@@ -469,10 +501,10 @@ body, a {
     .search .search-area .search-area-btn {
       border: 0;
       /*defaultで設定されているcssを打ち消す*/
-      border-left: 1px solid #bfbcb0;
-      background: linear-gradient(to bottom, #fcfcfa, #e5e3d8);
       padding: 0;
-      /*defaultで設定されているcssを打ち消す*/ }
+      /*defaultで設定されているcssを打ち消す*/
+      border-left: 1px solid #bfbcb0;
+      background: linear-gradient(to bottom, #fcfcfa, #e5e3d8); }
 
 .recipe .recipe-visual .recipe-visual-title {
   padding: 20px 10px;
@@ -599,7 +631,6 @@ body, a {
     padding: 6px 8px;
     font-weight: bold; }
   .listBar .listBar-item {
-    padding: 6px 20px 6px 8px;
     border-bottom: 1px solid #efe9d3; }
     .listBar .listBar-item:last-child {
       border-bottom: 0; }
@@ -608,12 +639,15 @@ body, a {
     .listBar .listBar-item .listBar-item-id {
       font-size: 16px;
       text-align: center; }
-    .listBar .listBar-item .listBar-item-anchor:after {
-      content: '';
-      border-top: 3px solid #bfbcb0;
-      border-right: 3px solid #bfbcb0;
-      border-radius: 3px;
-      transform: rotate(45deg); }
+    .listBar .listBar-item .listBar-item-anchor {
+      padding: 6px 20px 6px 8px;
+      box-sizing: border-box; }
+      .listBar .listBar-item .listBar-item-anchor:after {
+        content: '';
+        border-top: 3px solid #bfbcb0;
+        border-right: 3px solid #bfbcb0;
+        border-radius: 3px;
+        transform: rotate(45deg); }
     .listBar .listBar-item .listBar-item-thumbnail {
       border-radius: 5px; }
     .listBar .listBar-item .listBar-item-title {
@@ -1112,18 +1146,19 @@ body, a {
   box-sizing: border-box;
   font-size: 18px;
   font-weight: bold;
-  text-align: center;
-  padding: 25px 15px 10px 15px; }
+  text-align: center; }
   .campaign .campaign-appeal .campaign-appeal-anchor {
     width: 100%;
     display: block;
-    position: relative; }
+    position: relative;
+    padding: 25px 15px 10px 15px;
+    box-sizing: border-box; }
     .campaign .campaign-appeal .campaign-appeal-anchor:after {
       content: '';
       position: absolute;
       top: 50%;
-      right: 0;
-      margin-top: -10px;
+      right: 10px;
+      margin-top: 0;
       padding: 4px;
       border-top: 4px solid #bfbcb0;
       border-right: 4px solid #bfbcb0;
@@ -1215,6 +1250,28 @@ body, a {
   .service .service-premiumList .service-premiumList-premium:before {
     background: url("../img/icon-premium-menu.png") no-repeat;
     background-size: 25px; }
+
+.topicList > li {
+  text-align: center; }
+
+.topicList .topicList-thumbnail {
+  border-radius: 5px; }
+
+.topicList .topicList-info {
+  padding: 10px 0 10px 10px; }
+  .topicList .topicList-info .topicList-info-title {
+    font-size: 22px;
+    font-weight: bold; }
+  .topicList .topicList-info .topicList-info-text {
+    font-size: 11px; }
+
+.trendKeyword .trendKeyword-anchor {
+  font-size: 13px;
+  font-weight: bold;
+  padding: 4px 12px 0 0; }
+
+.trendKeyword .trendkeyword-arrow {
+  width: 20px; }
 
 .is-block {
   display: block; }

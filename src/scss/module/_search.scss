@@ -17,9 +17,9 @@
 
     .search-area-btn {
       border: 0;/*defaultで設定されているcssを打ち消す*/
+      padding: 0;/*defaultで設定されているcssを打ち消す*/
       border-left: 1px solid #bfbcb0;
       background: linear-gradient(to bottom, #fcfcfa, #e5e3d8);
-      padding: 0;/*defaultで設定されているcssを打ち消す*/
     }
   }
 }

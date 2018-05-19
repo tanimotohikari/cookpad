@@ -1,0 +1,36 @@
+.l-topicList {
+
+  & > li {
+    padding: 0 3px;
+  }
+
+  & > li > * {
+    display: block;
+  }
+
+  .l-topicList-icon {
+    width: 20px;
+    margin: 0 auto;
+  }
+
+  .l-topicList-icon-large {
+    width: 24px;
+    margin: 0 auto;
+  }
+
+  .l-topicList-thumbnail {
+    width: 65px;
+  }
+
+  .l-topicList-thumbnail-large {
+    max-width: 105px;
+  }
+
+  .l-topicList-info {
+    width: 85px;
+
+    .l-topicList-info-title {
+      margin: 15px 0 5px;
+    }
+  }
+}

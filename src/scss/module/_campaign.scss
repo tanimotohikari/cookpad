@@ -7,19 +7,20 @@
     font-size: 18px;
     font-weight: bold;
     text-align: center;
-    padding: 25px 15px 10px 15px;
 
     .campaign-appeal-anchor {
       width: 100%;
       display: block;
       position: relative;
+      padding: 25px 15px 10px 15px;
+      box-sizing: border-box;
 
       &:after {
         content: '';
         position: absolute;
         top: 50%;
-        right: 0;
-        margin-top: -10px;
+        right: 10px;
+        margin-top: 0;
         padding: 4px;
         border-top: 4px solid #bfbcb0;
         border-right: 4px solid #bfbcb0;

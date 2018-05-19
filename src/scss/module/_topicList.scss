@@ -1,0 +1,23 @@
+.topicList {
+
+  & > li {
+    text-align: center;
+  }
+
+  .topicList-thumbnail {
+    border-radius: 5px;
+  }
+
+  .topicList-info {
+    padding: 10px 0 10px 10px;
+
+    .topicList-info-title {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .topicList-info-text {
+      font-size: 11px;
+    }
+  }
+}

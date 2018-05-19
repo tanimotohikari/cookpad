@@ -91,21 +91,24 @@
 }
 
 /*横並びリスト*/
-.l-list {
+.l-row {
 
   & > * {
     float: left;
   }
 }
 
-.l-row {
+.l-flex {
   display: flex;
 }
 
 /*tableレイアウト*/
 .l-table {
   display: table;
-  table-layout: fixed;
+
+  &.l-table-fixed {
+    table-layout: fixed;
+  }
 
   & > * {
     display: table-cell;
@@ -123,9 +126,4 @@
 
 .l-padding-right {
   padding-right: 15px;
-}
-
-/*行間レイアウト*/
-.l-lineheight {
-  line-height: 1.5em;
 }

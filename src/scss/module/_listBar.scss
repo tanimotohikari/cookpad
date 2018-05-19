@@ -7,7 +7,6 @@
   }
 
   .listBar-item {
-    padding: 6px 20px 6px 8px;
     border-bottom: 1px solid #efe9d3;
 
     &:last-child {
@@ -23,7 +22,9 @@
       text-align: center;
     }
 
-    .listBar-item-anchor{
+    .listBar-item-anchor {
+      padding: 6px 20px 6px 8px;
+      box-sizing: border-box;
 
       &:after {
         content: '';
