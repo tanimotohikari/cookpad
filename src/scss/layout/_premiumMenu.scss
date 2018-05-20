@@ -7,8 +7,14 @@
 
   .l-premiumMenu-visual {
     height: 215px;
-    position: relative;
     margin-bottom: 10px;
+    position: relative;
+
+    .l-premiumMenu-visual-inner {
+      position: relative;
+      width: 276px;
+      margin: 0 auto;
+    }
 
     .l-premiumMenu-visual-img {
       position: absolute;
@@ -17,21 +23,21 @@
         width: 160px;
         height: 160px;
         top: 16px;
-        left: 10px;
+        left: 0;
       }
 
       &.sub {
         width: 80px;
         height: 80px;
         top: 7px;
-        right: 20px;
+        right: 5px;
       }
 
       &.tertiary {
         width: 80px;
         height: 80px;
         top: 108px;
-        right: 20px;
+        right: 5px;
       }
     }
 

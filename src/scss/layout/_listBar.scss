@@ -22,6 +22,14 @@
       display: table-cell;
       width: 40px;
       margin-right: 5px;
+
+      &.l-listBar-item-thumbnail-small {
+        width: 30px;
+      }
+
+      &.l-listBar-item-thumbnail-large {
+        width: 70px;
+      }
     }
 
     .l-listBar-item-text {

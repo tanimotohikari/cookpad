@@ -254,25 +254,29 @@ body, a {
     margin-bottom: 10px; }
   .l-premiumMenu .l-premiumMenu-visual {
     height: 215px;
-    position: relative;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    position: relative; }
+    .l-premiumMenu .l-premiumMenu-visual .l-premiumMenu-visual-inner {
+      position: relative;
+      width: 276px;
+      margin: 0 auto; }
     .l-premiumMenu .l-premiumMenu-visual .l-premiumMenu-visual-img {
       position: absolute; }
       .l-premiumMenu .l-premiumMenu-visual .l-premiumMenu-visual-img.main {
         width: 160px;
         height: 160px;
         top: 16px;
-        left: 10px; }
+        left: 0; }
       .l-premiumMenu .l-premiumMenu-visual .l-premiumMenu-visual-img.sub {
         width: 80px;
         height: 80px;
         top: 7px;
-        right: 20px; }
+        right: 5px; }
       .l-premiumMenu .l-premiumMenu-visual .l-premiumMenu-visual-img.tertiary {
         width: 80px;
         height: 80px;
         top: 108px;
-        right: 20px; }
+        right: 5px; }
     .l-premiumMenu .l-premiumMenu-visual .l-premiumMenu-visual-theme {
       position: absolute;
       top: 12px;
@@ -410,6 +414,10 @@ body, a {
     display: table-cell;
     width: 40px;
     margin-right: 5px; }
+    .l-listBar .l-listBar-item .l-listBar-item-thumbnail.l-listBar-item-thumbnail-small {
+      width: 30px; }
+    .l-listBar .l-listBar-item .l-listBar-item-thumbnail.l-listBar-item-thumbnail-large {
+      width: 70px; }
   .l-listBar .l-listBar-item .l-listBar-item-text {
     width: 85%;
     display: table-cell;
@@ -424,12 +432,12 @@ body, a {
   vertical-align: middle; }
 
 .l-categoryList .l-categoryList-thumbnail {
-  width: 40px;
+  width: 11%;
   float: left;
   margin: 5px 8px 0 0; }
 
 .l-categoryList .l-categoryList-body {
-  width: 220px;
+  width: 86%;
   float: left; }
 
 .l-lineheight {
@@ -1056,15 +1064,16 @@ body, a {
   border-bottom: 1px solid #eae8e3; }
   .functions .functions-item {
     width: 33%;
-    border-right: 1px solid #eae8e3;
-    padding-left: 5px; }
+    border-right: 1px solid #eae8e3; }
     .functions .functions-item:last-child {
       border-right: 0; }
     .functions .functions-item .functions-item-inner {
-      padding-left: 5px; }
+      display: block;
+      padding: 10px 5px;
+      text-align: center; }
     .functions .functions-item .functions-item-icon {
       width: 22px;
-      float: left; }
+      vertical-align: middle; }
     .functions .functions-item .functions-item-text {
       font-size: 12px;
       font-weight: bold;
